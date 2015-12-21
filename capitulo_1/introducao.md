@@ -58,9 +58,9 @@ abreviações, busca por *Expressões Regulares*[^2], entre outras facilidades.
 A figura 1.1 mostra o vim sendo usando para editar o
 arquivo o desse livro sobre vim.
 
-![Usando o vim para editar o código em LaTeX](img/vimedittex.png "Usando o vim para editar o código em LaTeX")
 
-![Usando o vim para editar o código em LaTeX](img/vimedittex)
+![Usando o vim para editar o código em LaTeX](vimedittex.png "Usando o vim para editar o código em LaTeX")
+
 
 Figura 1.1 - Usando o vim para editar o código em LaTex 
 
