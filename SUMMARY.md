@@ -6,7 +6,7 @@ O Editor de texto Vim.
     * Instalação do vim
         * Instalação no Windows
         * Instalação no GNU/Linux
-    * [Dicas iniciais]()
+    * Dicas iniciais
     * Ajuda integrada
     * Em caso de erros
     * Como interpretar atalhos e comandos
