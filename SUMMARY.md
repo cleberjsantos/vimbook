@@ -2,11 +2,11 @@
 
 O Editor de texto Vim.
 
-* Introdução
-    * Instalação do vim
+* [Introdução](intro.md)
+    * [Instalação do vim](intro.md)
         * Instalação no Windows
         * Instalação no GNU/Linux
-    * Dicas iniciais
+    * [Dicas iniciais](intro.md#Dicas Iniciais)
     * Ajuda integrada
     * Em caso de erros
     * Como interpretar atalhos e comandos
