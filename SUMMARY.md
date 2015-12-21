@@ -1,6 +1,5 @@
 # Summary
 
-* [Introduction](README.md)
 * [Introdução](capitulo_1/introducao.md)
    * [Instalação do vim](capitulo_1/instalacao.md)
    * [Dicas iniciais](capitulo_1/dicas.md)
