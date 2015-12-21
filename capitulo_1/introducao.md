@@ -49,23 +49,20 @@ editor de texto extremamente configurável, criado para permitir a edição
 de forma eficiente, tornando-a produtiva e confortável. Também é uma
 aprimoração do editor “Vi”, um tradicional programa dos sistemas Unix.
 Possui uma série de mudanças em relação a este último. O próprio slogan
-do Vim é *Vi IMproved*, ou seja, *Vi
-Melhorado*. O Vim é tão conhecido e respeitado entre
-programadores, e tão útil para programação, que muitos o consideram uma
-verdadeira “IDE (*Integrated Development Environment*, em português,
-Ambiente Integrado de Desenvolvimento)”.
+do Vim é *Vi IMproved*, ou seja, *Vi Melhorado*. O Vim é tão conhecido e respeitado entre programadores, e tão útil para programação, que muitos o consideram uma verdadeira “IDE (*Integrated Development Environment*, em português, Ambiente Integrado de Desenvolvimento)”.
 
 Ele é capaz de reconhecer mais de 500 sintaxes de linguagens de
 programação e marcação, possui mapeamento para teclas, macros,
-abreviações, busca por *Expressões
-Regulares*[^2], entre outras facilidades.
+abreviações, busca por *Expressões Regulares*[^2], entre outras facilidades.
 
-A figura [fig:vimedittex] mostra o vim sendo usando para editar o
+A figura 1.1 mostra o vim sendo usando para editar o
 arquivo o desse livro sobre vim.
+
+![Usando o vim para editar o código em LaTeX](img/vimedittex.png "Usando o vim para editar o código em LaTeX")
 
 ![Usando o vim para editar o código em LaTeX](img/vimedittex)
 
-[fig:vimedittex]
+Figura 1.1 - Usando o vim para editar o código em LaTex 
 
 O Vim conta com uma comunidade bastante atuante e é, ao lado do
 Emacs[^3], um dos editores mais usados nos sistemas GNU/Linux[^4],
