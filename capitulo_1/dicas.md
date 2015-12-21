@@ -8,13 +8,13 @@ se já sabe o que está sendo passado. Contudo dicas e sugestões serão bem
 vindas!
 
 Para abrir um arquivo com Vim digite num terminal:
-
-         vim texto.txt
-
-onde <span>texto.txt</span> é o nome do arquivo que deseja-se criar ou
+```bash
+    vim texto.txt
+```
+onde `texto.txt` é o nome do arquivo que deseja-se criar ou
 editar.
 
-Em algumas distribuições, pode-se usar o comando <span>vi</span> ao
-invés de <span>vim</span>.
+Em algumas distribuições, pode-se usar o comando `vi` ao
+invés de `vim`.
 
 
