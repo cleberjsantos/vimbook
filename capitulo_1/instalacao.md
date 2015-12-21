@@ -5,7 +5,7 @@ Instalação do Vim
 
 Há uma versão gráfica do Vim disponível para vários sistemas
 operacionais, incluindo o Windows; esta versão pode ser encontrada no
-[site oficial](http://www.vim.org/download.php) @SiteOficialDownloads.
+[site oficial](http://www.vim.org/download.php).
 Para instalá-lo basta baixar o instalador no link indicado e dispará-lo
 com um duplo clique (este procedimento requer privilégios de
 administrador).
@@ -16,13 +16,13 @@ A maioria das distribuições GNU/Linux traz o Vim em seus repositórios,
 sendo que é bastante comum o Vim já vir incluído na instalação típica da
 distribuição. A forma de instalação preferível depende do Vim:
 
--   Já vir instalado por <span>*default*</span> – neste caso nada
+-   Já vir instalado por *default* – neste caso nada
     precisa ser feito.
 
 -   Estar disponível no repositório, mas não instalado – em
     distribuições derivadas da Debian GNU/Linux[^5], a instalação do Vim
     através dos repositórios é usualmente executada digitando-se
-    <span>‘apt-get install vim’</span>[^6] em um <span>*terminal*</span>
+    `apt-get install vim`[^6] em um *terminal*
     (este procedimento requer privilégios de administrador e,
     tipicamente, conexão com a internet).
 
@@ -35,9 +35,19 @@ distribuição. A forma de instalação preferível depende do Vim:
     documentação da distribuição o que significa cada pacote.
 
 -   Não estar disponível no repositório da distribuição – cenário
-    <span>*muito*</span> improvável, mas nas sua ocorrência o Vim pode
+    *muito* improvável, mas nas sua ocorrência o Vim pode
     ser instalado através da compilação do código-fonte; basta seguir as
     instruções do [site
-    oficial](http://www.vim.org/download.php) @SiteOficialDownloads.
+    oficial](http://www.vim.org/download.php).
+
+    [^5]: Debian GNU/Linux - <http://www.debian.org/index.pt.html>
+
+    [^6]: Recomenda-se também instalar a documentação em HTML do Vim:
+        `apt-get install vim-doc`
+
+    [^7]: Para ubuntu e Debian
+
+    [^8]: O Python (<http://www.python.org>) é uma linguagem de programação
+        orientada a objetos muito comum no meio profissional e acadêmico
 
 

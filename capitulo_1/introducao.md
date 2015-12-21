@@ -4,23 +4,23 @@ Introdução
 A edição de texto é uma das tarefas mais frequentemente executadas por
 seres humanos em ambientes computacionais, em qualquer nível. Usuários
 finais, administradores de sistemas, programadores de software,
-desenvolvedores <span>*web*</span>, e tantas outras categorias, todos
+desenvolvedores *web*, e tantas outras categorias, todos
 eles, constantemente, necessitam editar textos.
 
 Usuários finais editam texto para criar documentos, enviar e-mails,
 atualizar o blog, escrever recados ou simplesmente trocar mensagens
 instantâneas pela internet. Administradores de sistemas editam arquivos
 de configuração, criam regras de segurança, editam
-<span>*scripts*</span> e manipulam saídas de comandos armazenados em
+*scripts* e manipulam saídas de comandos armazenados em
 arquivos de texto. Programadores desenvolvem códigos-fonte e a
 documentação de programas essencialmente em editores de texto.
-Desenvolvedores <span>*web*</span> interagem com editores de texto para
-criarem <span>*layout*</span> e dinâmica de sites.
+Desenvolvedores *web* interagem com editores de texto para
+criarem *layout* e dinâmica de sites.
 
 Tamanha é a frequência e onipresença da tarefa de edição de texto que a
 eficiência, flexibilidade e o repertório de ferramentas de editores de
 texto tornam-se quesitos críticos para se atingir
-<span>*produtividade*</span> e <span>*conforto*</span> na edição de
+*produtividade* e *conforto* na edição de
 textos.
 
 Qualquer tarefa de aprendizado requer um certo esforço. Todo programa
@@ -49,16 +49,16 @@ editor de texto extremamente configurável, criado para permitir a edição
 de forma eficiente, tornando-a produtiva e confortável. Também é uma
 aprimoração do editor “Vi”, um tradicional programa dos sistemas Unix.
 Possui uma série de mudanças em relação a este último. O próprio slogan
-do Vim é <span>*Vi IMproved*</span>, ou seja, <span>*Vi
-Melhorado*</span>. O Vim é tão conhecido e respeitado entre
+do Vim é *Vi IMproved*, ou seja, *Vi
+Melhorado*. O Vim é tão conhecido e respeitado entre
 programadores, e tão útil para programação, que muitos o consideram uma
 verdadeira “IDE (*Integrated Development Environment*, em português,
 Ambiente Integrado de Desenvolvimento)”.
 
 Ele é capaz de reconhecer mais de 500 sintaxes de linguagens de
 programação e marcação, possui mapeamento para teclas, macros,
-abreviações, busca por <span>*<span>Expressões
-Regulares</span>*</span>[^2], entre outras facilidades.
+abreviações, busca por *Expressões
+Regulares*[^2], entre outras facilidades.
 
 A figura [fig:vimedittex] mostra o vim sendo usando para editar o
 arquivo o desse livro sobre vim.
@@ -74,19 +74,8 @@ Macintosh.
 
 [^1]: Vim - <http://www.vim.org>
 
-[^2]: Expressões Regulares -
-    <http://guia-er.sourceforge.net/guia-er.html>
+[^2]: Expressões Regulares - <http://guia-er.sourceforge.net/guia-er.html>
 
 [^3]: Emacs - <http://www.gnu.org/software/emacs/>
 
 [^4]: O kernel Linux sem os programas GNU não serviria para muita coisa.
-
-[^5]: Debian GNU/Linux - <http://www.debian.org/index.pt.html>
-
-[^6]: Recomenda-se também instalar a documentação em HTML do Vim:
-    <span>‘apt-get install vim-doc’</span>
-
-[^7]: Para ubuntu e Debian
-
-[^8]: O Python (<http://www.python.org>) é uma linguagem de programação
-    orientada a objetos muito comum no meio profissional e acadêmico
