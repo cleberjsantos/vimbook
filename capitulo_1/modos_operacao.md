@@ -6,10 +6,10 @@ do Vim, a seguir mais detalhes sobre cada um dos modos.
 
 |Modo|Descrição|Atalho|
 |----|---------|------|
-|Normal| Para deletar, copiar, formatar, etc | <esc> |
+|Normal| Para deletar, copiar, formatar, etc | `<esc>` |
 |Inserção| Prioritariamente, digitação de texto| i, a, I, A, o, O |
 |Visual| Seleção de blocos verticais e linhas inteiras |V, v, Ctrl-v| 
-|Comando| Uma verdadeira linguagem de programação | <esc>: |
+|Comando| Uma verdadeira linguagem de programação | `<esc>`: |
 
 Em oposição à esmagadora maioria dos editores o Vim é um editor que
 trabalha com “modos de operação (modo de inserção, modo normal, modo
