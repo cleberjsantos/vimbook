@@ -2,10 +2,10 @@ Erros comuns
 ------------
 
 -   Estando em *modo de inserção* pressionar
-    ‘*j*’ na intenção de rolar o documento, neste caso
-    estaremos inserindo simplesmente a letra ‘*j*’.
+    `j` na intenção de rolar o documento, neste caso
+    estaremos inserindo simplesmente a letra `j`.
 
--   Estando em *modo normal* acionar acidentalmente o “`<Caps Lock>`” e tentar 
+-   Estando em *modo normal* acionar acidentalmente o `<Caps Lock>` e tentar 
     rolar o documento usando a letra “`J`”, o efeito é a junção das linhas, aliás um ótimo recurso quando a intenção é de fato esta.
 
 -   Em *modo normal* tentar digitar *um número seguido de uma palavra* e ao
@@ -14,7 +14,7 @@ Erros comuns
     foi digitado inicialmente vira um quantificador para o que se
     digitou ao entrar no modo de inserção. A palavra aparecerá repetida
     na quantidade do número digitado. Assim, se você quiser digitar 10
-    vezes “`isto é um teste`” faça assim:
+    vezes `isto é um teste` faça assim:
 
              <Esc> ........... se assegure de estar em modo normal
              10 .............. quantificador
