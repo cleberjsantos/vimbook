@@ -1,4 +1,4 @@
-Em caso de erros  {#Em caso de erros }
+Em caso de erros
 -----------------
 
 Recarregue o arquivo que está sendo editado pressionando ‘`Esc`’ e em

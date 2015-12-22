@@ -1,17 +1,14 @@
-Erros comuns {#sec:Erros comuns}
+Erros comuns
 ------------
 
--   Estando em <span>*<span>modo de inserção</span>*</span> pressionar
-    ‘<span>j</span>’ na intenção de rolar o documento, neste caso
-    estaremos inserindo simplesmente a letra ‘<span>j</span>’.
+-   Estando em *modo de inserção* pressionar
+    ‘*j*’ na intenção de rolar o documento, neste caso
+    estaremos inserindo simplesmente a letra ‘*j*’.
 
--   Estando em <span>*<span>modo normal</span>*</span> acionar
-    acidentalmente o “`<Caps Lock>`” e tentar rolar o documento usando a
-    letra “`J`”, o efeito é a junção das linhas, aliás um ótimo recurso
-    quando a intenção é de fato esta.
+-   Estando em *modo normal* acionar acidentalmente o “`<Caps Lock>`” e tentar 
+    rolar o documento usando a letra “`J`”, o efeito é a junção das linhas, aliás um ótimo recurso quando a intenção é de fato esta.
 
--   Em <span>*<span>modo normal</span>*</span> tentar digitar
-    <span>*<span>um número seguido de uma palavra</span>*</span> e ao
+-   Em *modo normal* tentar digitar *um número seguido de uma palavra* e ao
     perceber que nada está sendo digitado, iniciar o modo de inserção,
     digitando por fim o que se queria, o resultado é que o número que
     foi digitado inicialmente vira um quantificador para o que se
@@ -34,11 +31,10 @@ Alguns atalhos úteis…
          gv ......... repete seleção visual
 
 Para saber mais sobre repetição de comandos veja o capítulo [Repetição
-de comandos], na página .
+de comandos]("#").
 
 No Vim, cada arquivo aberto é chamado de `buffer`, ou seja, dados
-carregados na memória. Você pode acessar o mesmo <span>*buffer*</span>
+carregados na memória. Você pode acessar o mesmo *buffer*
 em mais de uma janela, bem como dividir a janela em vários
-<span>*buffers*</span> distintos o que veremos mais adiante.
-
+*buffers* distintos o que veremos mais adiante.
 

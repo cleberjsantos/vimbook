@@ -1,4 +1,4 @@
-Entrando em modo de edição {#Entrando em modo de edição}
+Entrando em modo de edição
 --------------------------
 
 Estando no modo normal, digita-se:

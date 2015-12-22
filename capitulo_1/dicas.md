@@ -1,4 +1,4 @@
-Dicas iniciais {#Dicas iniciais}
+Dicas iniciais
 --------------
 
 Ao longo do livro alguns comandos ou dicas podem estar duplicados, o que
