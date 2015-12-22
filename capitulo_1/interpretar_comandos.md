@@ -1,12 +1,12 @@
 Como interpretar atalhos e comandos {#Como interpretar atalhos e comandos}
 -----------------------------------
 
-A tecla “`<Ctrl>`” é representada na maioria dos manuais e na ajuda pelo
-caractere “`^`” circunflexo, ou seja, o atalho `Ctrl-L` aparecerá assim:
+A tecla `<Ctrl>` é representada na maioria dos manuais e na ajuda pelo
+caractere `^` circunflexo, ou seja, o atalho `Ctrl-L` aparecerá assim:
 
          ^L
 
-No arquivo de configuração do Vim, um “`<Enter>`” pode aparecer como:
+No arquivo de configuração do Vim, um `<Enter>` pode aparecer como:
 
          <cr>
 
