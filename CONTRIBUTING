@@ -11,7 +11,7 @@ Atribua issue correspondente a cápitulo escolhido a seu usuário.
 
 Envie PR do capítulo.
 
-Os capítulos se encontram em formato markdown, com alguns problemas de formatação pois foram diretamente gerados à partir do .tex.
+Os [capítulos](https://github.com/cassiobotaro/vimbook/tree/master/chapters) se encontram em formato markdown, com alguns problemas de formatação pois foram diretamente gerados à partir do .tex.
 
 Para auxiliar a transcrição, a última versão pdf gerada à partir do .tex está disponível para [download](https://github.com/cassiobotaro/vimbook/blob/master/vimbook-31-08-2009.pdf). 
 
