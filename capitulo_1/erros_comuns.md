@@ -6,7 +6,7 @@ Erros comuns
     estaremos inserindo simplesmente a letra `j`.
 
 -   Estando em *modo normal* acionar acidentalmente o `<Caps Lock>` e tentar 
-    rolar o documento usando a letra “`J`”, o efeito é a junção das linhas, aliás um ótimo recurso quando a intenção é de fato esta.
+    rolar o documento usando a letra `J`, o efeito é a junção das linhas, aliás um ótimo recurso quando a intenção é de fato esta.
 
 -   Em *modo normal* tentar digitar *um número seguido de uma palavra* e ao
     perceber que nada está sendo digitado, iniciar o modo de inserção,
