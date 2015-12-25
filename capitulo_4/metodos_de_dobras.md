@@ -1,7 +1,7 @@
 Métodos de dobras
 ------------------
 
-O Vim tem seis modos <span>*fold*</span>, são eles:
+O Vim tem seis modos *fold*, são eles:
 
 - Sintaxe (*syntax*)
 - Identação (*indent*)

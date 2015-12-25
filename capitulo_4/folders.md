@@ -6,7 +6,7 @@ texto, algo assim:
 
          +-- 10 linhas ---------------------------
 
-Deste ponto em diante chamaremos os <span>*folders*</span> descritos no
+Deste ponto em diante chamaremos os *folders* descritos no
 manual do Vim como dobras! Quando tiver que manipular grandes
 quantidades de texto tente usar dobras, isto permite uma visualização
 completa do texto. Um modo de entender rapidamente como funcionam as

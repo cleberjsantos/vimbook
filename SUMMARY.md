@@ -13,3 +13,7 @@
    * [Paginando](capitulo_3/paginando.md)
    * [Usando marcas](capitulo_3/usando_marcas.md)
     * [Marcas globais](capitulo_3/marcas_globais.md)
+* [Folders](capitulo_4/folders.md)
+   * [Métodos de dobras](capitulo_4/metodos_de_dobras.md)
+   * [Manipulando dobras](capitulo_4/manipulando_dobras.md)
+   * [Criando dobras usando o modo visual](capitulo_4/criando_dobras_usando_o_modo_visual.md) 
