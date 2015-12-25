@@ -1,6 +1,6 @@
 
-O EDITOR DE TEXTO VIM
-=====================
+# O EDITOR DE TEXTO VIM
+
 
 ![Logo Vim](vimlogo.png "logo vim")
 
