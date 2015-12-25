@@ -8,6 +8,7 @@
    * [Modos de operação](capitulo_1/modos_de_operacao.md)
    * [Entrando em modo de edição](capitulo_1/entrando_em_modo_de_edicao.md)
    * [Erros comuns](capitulo_1/erros_comuns.md)
+* [Editando]()
 * [Movendo-se no documento](capitulo_3/movendo-se_no_documento.md)
    * [Paginando](capitulo_3/paginando.md)
    * [Usando marcas](capitulo_3/usando_marcas.md)
