@@ -1,4 +1,4 @@
-Como interpretar atalhos e comandos {#Como interpretar atalhos e comandos}
+Como interpretar atalhos e comandos
 -----------------------------------
 
 A tecla `<Ctrl>` é representada na maioria dos manuais e na ajuda pelo
