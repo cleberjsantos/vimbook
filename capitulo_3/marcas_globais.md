@@ -6,12 +6,12 @@ o comando:
 
          mA
 
-Onde ‘<span>m</span>’ cria a marca e ‘<span>A</span>’ (maiúsculo) define
-uma marca ‘<span>A</span>’ acessível a qualquer momento com o comando:
+Onde ‘m’ cria a marca e ‘A’ (maiúsculo) define
+uma marca ‘A’ acessível a qualquer momento com o comando:
 
          'A
 
-Isto fará o Vim dar um salto até a marca ‘<span>A</span>’ mesmo que
+Isto fará o Vim dar um salto até a marca ‘A’ mesmo que
 esteja em outro arquivo, mesmo que você tenha acabado de fecha-lo. Para
 abrir e editar vários arquivos do Vim fazemos:
 
