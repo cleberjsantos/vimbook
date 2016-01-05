@@ -71,6 +71,6 @@
    * [Grep](capitulo_9/grep.md)
    * [Indent](capitulo_9/indent.md)
    * [Calculadora Científica com o Vim](capitulo_9/calculadora_cientifica_com_o_vim.md)
-   * [Editando saídas do Shell](capitulo_9/inserindo_a_palavra_sob_o_cursor_em_um_comando.md)
+   * [Editando saídas do Shell](capitulo_9/editando_saidas_do_shell.md)
    * [Log do Subversion](capitulo_9/log_do_subversion.md)
    * [Referências](capitulo_9/referencias.md)
