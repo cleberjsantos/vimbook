@@ -20,7 +20,7 @@
 * [Registros]()
 * [Buscas e substituições](capitulo_6/buscas_e_substituicoes.md)
    * [Usando "Expressões Regulares" em buscas](capitulo_6/usando_expressoes_regulares_em_buscas.md)
-    -  [Evitando escapes ao utilizar Expressões regulares](capitulo_6/evitando_escapes_ao_utilizar_expressoes_regulares.md)
+    -  [Evitando escapes ao utilizar Expressões regulares](capitulo_6/evitando_escapes_ao_usar_expressoes_regulares.md)
    * [Destacando Padrões](capitulo_6/destacando_padroes.md)
    * [Inserindo linha antes e depois](capitulo_6/inserindo_linha_antes_e_depois.md)
    * [Obtendo informações do arquivo](capitulo_6/obtendo_informacoes_do_arquivo.md)
