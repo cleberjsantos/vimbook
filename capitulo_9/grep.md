@@ -9,3 +9,5 @@ jeito:
 
 Use a janela de *quickfix*[^3] aqui também para exibir os
 resultados do grep e poder ir diretamente a eles.
+
+[^3]: :cope

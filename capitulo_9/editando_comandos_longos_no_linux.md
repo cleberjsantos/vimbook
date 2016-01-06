@@ -16,3 +16,5 @@ no terminal, para facilitar esta tarefa pode-se seguir estes passos:
     Esta combinação de teclas abre o editor padrão do sistema onde se
     deve digitar o comando longo, ao sair do editor o terminal executa o
     comando editado.
+
+[^2]: Arquivo de configuração do bash

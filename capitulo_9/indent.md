@@ -17,3 +17,5 @@ No caso, como foi selecionado um bloco de código, irão aparecer alguns
 caracteres extras, mas o procedimento continua o mesmo:
 
          :'<,'>!indent
+
+[^4]: [http://www.gnu.org/software/indent](http://www.gnu.org/software/indent)
