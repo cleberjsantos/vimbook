@@ -79,6 +79,6 @@
     - [Habilitação automática na inicialização](capitulo_10/habilitacao_automatica_na_inicializacao.md)
    * [O dicionário de termos](capitulo_10/dicionario_de_termos.md)
     - [Dicionário Português segundo o acordo ortográfico](capitulo_10/dicionario_portugues_segundo_o_acordo_ortografico.md)
-   * Comandos relativos à verificação ortográfica
+   * [Comandos relativos à verificação ortográfica](capitulo_10/encontrando_palavras_desconhecidas.md)
     - [Encontrando palavras desconhecidas](capitulo_10/encontrando_palavras_desconhecidas.md)
     - [Tratamento de palavras desconhecidas](capitulo_10/tratamento_de_palavras_desconhecidas.md)
