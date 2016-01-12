@@ -74,3 +74,11 @@
    * [Editando saídas do Shell](capitulo_9/editando_saidas_do_shell.md)
    * [Log do Subversion](capitulo_9/log_do_subversion.md)
    * [Referências](capitulo_9/referencias.md)
+* [Verificação Ortográfica](capitulo_10/verificacao_ortografica.md)
+   * [Habilitando a verificação ortográfica](capitulo_10/habilitando_a_verificacao_ortografica.md)
+    - [Habilitação automática na inicialização](capitulo_10/habilitacao_automatica_na_inicializacao.md)
+   * [O dicionário de termos](capitulo_10/dicionario_de_termos.md)
+    - [Dicionário Português segundo o acordo ortográfico](capitulo_10/dicionario_portugues_segundo_o_acordo_ortografico.md)
+   * Comandos relativos à verificação ortográfica
+    - [Encontrando palavras desconhecidas](capitulo_10/encontrando_palavras_desconhecidas.md)
+    - [Tratamento de palavras desconhecidas](capitulo_10/tratamento_de_palavras_desconhecidas.md)
