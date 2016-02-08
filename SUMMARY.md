@@ -126,3 +126,7 @@
    * [Evitando arquivos de backup no disco](capitulo_12/evitando_arquivos_de_backup_no_disco.md)
    * [Mantendo apenas um Gvim aberto](capitulo_12/mantendo_apenas_um_gvim_aberto.md)
    * [Referências](capitulo_12/referencias.md)
+* [Uma Wiki para o Vim](capitulo_13/uma_wiki_para_o_vim.md)
+   * [Como Usar](capitulo_13/como_usar.md)
+   * [Salvamento automático para o Wiki](capitulo_13/salvamento_automatico_para_o_wiki.md)
+   * [Problemas com codificação de caracteres](capitulo_13/problemas_com_codificacao_de_caracteres.md)
