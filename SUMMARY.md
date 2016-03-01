@@ -130,3 +130,4 @@
    * [Como Usar](capitulo_13/como_usar.md)
    * [Salvamento automático para o Wiki](capitulo_13/salvamento_automatico_para_o_wiki.md)
    * [Problemas com codificação de caracteres](capitulo_13/problemas_com_codificacao_de_caracteres.md)
+* [Hábitos para edição efetiva](capitulo_14/habitos_para_edicao_efetiva.md)
