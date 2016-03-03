@@ -51,7 +51,7 @@ salto típicos.
          gg .... vai para o início do arquivo
          G ..... vai para o final do arquivo
          0 ..... vai para o início da linha
-         ^ ..... vai para o primeiro caractere da linha (ignora 
+         ^ ..... vai para o primeiro caractere da linha (ignora
                  espaços)
          $ ..... vai para o final da linha
          25gg .. salta para a linha 25
@@ -65,16 +65,16 @@ salto típicos.
          `' .... salta exatamente para a posição em que o cursor
                  estava
          gd .... salta para declaração de variável sob o cursor
-         gD .... salta para declaração (global) de variável sob o 
+         gD .... salta para declaração (global) de variável sob o
                  cursor
          w ..... move para o início da próxima palavra
          W ..... pula para próxima palavra (desconsidera hífens)
-         E ..... pula para o final da próxima palavra (desconsidera 
+         E ..... pula para o final da próxima palavra (desconsidera
                  hifens)
          e ..... move o cursor para o final da próxima palavra
          zt .... movo o cursor para o topo da página
          zm .... move o cursor para o meio da página
-         zz .... move a página de modo com que o cursor fique no 
+         zz .... move a página de modo com que o cursor fique no
                  centro
          n ..... move o cursor para a próxima ocorrência da busca
          N ..... move o cursor para a ocorrência anterior da busca
@@ -95,7 +95,7 @@ Para o Vim “*palavras-separadas-por-hífen*”
 são consideradas em separado, portanto se você usar, em modo normal
 “`w`” para avançar entre as palavras ele pulará uma de cada vez, no
 entanto se usar “`W`” em maiúsculo (como visto) ele pulará a
-“a-palavra-inteira” :)
+“palavra-inteira” :)
 
          E .... pula para o final de palavras com hifen
          B .... pula palavras com hifen (retrocede)
@@ -137,9 +137,9 @@ desejar ver seu conteúdo fazemos
 
 Na verdade o atalho acima lhe mostrará o último ponto onde foi feita a
 atribuição àquela variável que está sob o cursor, uma mão na roda para
-os programadores de plantão! Observe a barra de status do Vim se o tipo
-de arquivo está certo, tipo. Para detalhes sobre como personalizar a
-barra de status na seção [Função para barra de status].
+os programadores de plantão! Observe na barra de status do Vim se o tipo
+de arquivo está certo. Para detalhes sobre como personalizar a
+barra de status na seção [Função para barra de status]().
 
          ft=python
 
@@ -148,19 +148,19 @@ estiver correto
 
          :set ft=python
 
-Um mapeamento interessante que facilita a movimentação até linahas que
+Um mapeamento interessante que facilita a movimentação até linhas que
 contenham determinada palavra de um modo bem simples, bastando
 pressionar `,f` pode ser feito assim:
 
     map ,f [I:let nr = input("Which one: ")<Bar>exe "normal " . nr ."[\t"<CR>
 
 Uma vez definido o mapeamento acima e pressionando-se o atalho
-associado, que neste caso é `,f` o vim exibirá as uma oppção para pular
+associado, que neste caso é `,f` o vim exibirá as uma opção para pular
 para as ocorrências da palavra assim:
 
         1:  trecho contendo a palavra
         2:  outro trecho contendo a palavra
-        Which one: 
+        Which one:
 
 outro detalhe para voltar ao último ponto em que você estava
 
@@ -178,10 +178,10 @@ A maioria dos comandos do Vim pode ser precedida por um quantificador:
          d5w .... deleta 5 palavras
          b ...... retrocede uma palavra
          5b ..... retrocede 5 palavras
-         fx ..... posiciona o cursor em ``x''
-         dfx .... deleta até o próximo ``x''
+         fx ..... posiciona o cursor em "x"
+         dfx .... deleta até o próximo "x"
          dgg .... deleta da linha atual até o começo do arquivo
          dG ..... deleta até o final do arquivo
          yG ..... copia até o final do arquivo
-         yfx .... copia até o próximo ``x''
+         yfx .... copia até o próximo "x"
          y5j .... copia 5 linhas

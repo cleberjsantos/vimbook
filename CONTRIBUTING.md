@@ -31,4 +31,4 @@ Outros
 
 É muito bem vindo correções de ortografia, erros de digitação e outras coisas.
 
-Quando aceito o PR, uma nove versão do livro é gerada automaticamente.
+Quando aceito o PR, uma nova versão do livro é gerada automaticamente.
