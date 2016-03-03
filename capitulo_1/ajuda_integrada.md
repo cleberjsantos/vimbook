@@ -19,9 +19,9 @@ pressione ‘`Esc`’ e em seguida:
 
 ou simplesmente ‘`<F1>`’.
 
-Siga os links usando o atalho ‘`ctrl+]`’, em modo gráfico o clique com o
-mouse também funciona, e para voltar use ‘`ctrl+o`’ ou ‘`ctrl+t`’ Para
-as situações de desespero pode-se digitar:
+Siga os links usando o atalho ‘`ctrl+]`’ (em modo gráfico o clique do
+mouse também funciona) e para voltar use ‘`ctrl+o`’ ou ‘`ctrl+t`’.
+Para as situações de desespero pode-se digitar:
 
          :help!
 

@@ -7,7 +7,7 @@ um ótimo recurso. Ao perceber uma dica duplicada, antes de reclamar veja
 se já sabe o que está sendo passado. Contudo dicas e sugestões serão bem
 vindas!
 
-Para abrir um arquivo com Vim digite num terminal:
+Para abrir um arquivo com Vim digite em um terminal:
 
     vim texto.txt
 

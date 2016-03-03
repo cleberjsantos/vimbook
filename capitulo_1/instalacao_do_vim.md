@@ -14,7 +14,7 @@ administrador).
 
 A maioria das distribuições GNU/Linux traz o Vim em seus repositórios,
 sendo que é bastante comum o Vim já vir incluído na instalação típica da
-distribuição. A forma de instalação preferível depende do Vim:
+distribuição. A forma de instalação preferível depende da distribuição:
 
 -   Já vir instalado por *default* – neste caso nada
     precisa ser feito.
@@ -26,9 +26,9 @@ distribuição. A forma de instalação preferível depende do Vim:
     (este procedimento requer privilégios de administrador e,
     tipicamente, conexão com a internet).
 
-    Algumas distribuições GNU/Linux dividem o programa vim em vários
+    Algumas distribuições GNU/Linux dividem o programa Vim em vários
     pacotes. Pacotes adicionais como `gvim`, `vim-enhanced`,
-    `vim-phython`[^7], entre outros, representam diferentes versões do
+    `vim-python`[^7], entre outros, representam diferentes versões do
     mesmo aplicativo. O `gvim` é a versão gráfica do Vim e o
     `vim-enhanced` é uma versão do vim compilada com um suporte interno
     ao Python[^8]. A alternativa para resolver esse problema é buscar na
@@ -43,11 +43,11 @@ distribuição. A forma de instalação preferível depende do Vim:
     [^5]: Debian GNU/Linux - <http://www.debian.org/index.pt.html>
 
     [^6]: Recomenda-se também instalar a documentação em HTML do Vim:
-        `apt-get install vim-doc`
+          `apt-get install vim-doc`
 
     [^7]: Para ubuntu e Debian
 
     [^8]: O Python (<http://www.python.org>) é uma linguagem de programação
-        orientada a objetos muito comum no meio profissional e acadêmico
+          orientada a objetos muito comum no meio profissional e acadêmico
 
 
