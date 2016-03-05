@@ -18,5 +18,5 @@ Pode-se abrir o arquivo alternativo em nova janela usando-se o atalho:
 
         Ctrl-w Ctrl-6
 
-Mais informações sobre “janelas” leia a seção [7](../capitulo_7/trabalhando_com_janelas.md).
+Mais informações sobre “janelas” leia a seção [7](capitulo_7/trabalhando_com_janelas.md).
 
