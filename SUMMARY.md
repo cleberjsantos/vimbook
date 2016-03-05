@@ -147,7 +147,7 @@
    * [Plugin para LaTeX](capitulo_15/plugin_para_latex.md)
    * [Criando folders para arquivos LaTeX](capitulo_15/criando_folders_para_arquivos_latex.md)
    * [Criando Seções LaTeX](capitulo_15/criando_secoes_latex.md)
-   * [Plugin para manipular arquivos](plugin_para_manipular_arquivos.md)
+   * [Plugin para manipular arquivos](capitulo_15/plugin_para_manipular_arquivos.md)
    * [Complementação de código](capitulo_15/complementacao_de_codigo.md)
    * [Um wiki para o Vim](capitulo_15/um_wiki_para_o_vim.md)
    * [Acessando documentação do Python no Vim](capitulo_15/acessando_documentacao_do_python_no_vim.md)
