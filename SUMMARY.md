@@ -18,7 +18,7 @@
    * [Lista de alterações](capitulo_2/lista_de_alteracoes.md)
    * [Substituindo tabulações por espaços](capitulo_2/substituindo_tabulacoes_por_espacos.md)
    * [Convertendo para maiúsculas](capitulo_2/convertendo_para_maiusculas.md)
-   * [Editando em modo de comando](capitulo_2/editando_em_modo_de_comando.md)
+   * [Editando em modo de comando](capitulo_2/editando_em_modo_comando.md)
    * [O arquivo alternativo](capitulo_2/o_arquivo_alternativo.md)
    * [Lendo um arquivo para a linha atual](capitulo_2/lendo_um_arquivo_para_a_linha_atual.md)
    * [Incrementando números em modo normal](capitulo_2/incrementando_numeros_em_modo_normal.md)
