@@ -1,0 +1,262 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% vim:enc=utf-8:ts=5:sw=5:et:ff=unix:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Comandos Externos}
+O Vim permite executar comandos externos para processar ou filtrar o
+conteúdo de um arquivo. De forma geral, fazemos isso digitando (no
+modo normal):
+
+\begin{verbatim}
+     :!ls .... visualiza o conteúdo do diretório
+\end{verbatim}
+
+Lembrando que anexando um simples ponto, a saída do comando torna-se o 
+documento que está sendo editado:
+
+\begin{verbatim}
+     :.!ls .... imprime na tela o conteúdo do diretório
+\end{verbatim}
+
+A seguir, veja alguns exemplos de utilização:
+
+\section{Ordenando}
+Podemos usar o comando {\em sort} que ordena o conteúdo de um arquivo dessa forma:
+
+\begin{verbatim}
+     :5,15!sort ..... ordena da linha 5 até a linha 15
+\end{verbatim}
+
+O comando acima ordena da linha 5 até a linha 15.
+
+O comando {\em sort} existe tanto no Windows quanto nos sistemas Unix.
+Digitando simplesmente {\em sort}, sem argumentos, o comportamento padrão
+é de classificar na ordem alfabética (baseando-se na linha inteira).
+Para mais informações sobre argumentos do comando {\em sort}, digite:
+
+\begin{verbatim}
+     sort --help ou man sort (no Unix) ou
+     sort /? (no Windows).
+\end{verbatim}
+
+\section{Removendo linhas duplicadas}
+
+\begin{verbatim}
+     :%!uniq
+\end{verbatim}
+
+O caractere ``\%'' representa a região equivalente ao arquivo atual inteiro.
+A versão do Vim 7 em diante tem um comando {\em sort} que permite remover
+linhas duplicadas {\em uniq} e ordenar, sem a necessidade de usar comandos
+externos, para mais detalhes:
+
+\begin{verbatim}
+     :h sort
+\end{verbatim}
+
+\section{Ordenando e removendo linhas duplicadas no Vim 7}
+
+\begin{verbatim}
+     :sort u
+\end{verbatim}
+
+Quando a ordenação envolver números faz-se:
+
+\begin{verbatim}
+     :sort n
+\end{verbatim}
+
+\section{{\em Beautifiers}}
+
+A maior parte das linguagens de programação possui ferramentas
+externas chamadas {\em beautifiers}, que servem para embelezar o código,
+através da indentação e espaçamento. Por exemplo, para embelezar um
+arquivo HTML é possível usar a ferramenta ``tidy\footnote{http://tidy.sourceforge.net/}'', do W3C:
+
+\begin{verbatim}
+     :%!tidy
+\end{verbatim}
+
+\section{Editando comandos longos no Linux}
+\label{Editando comandos longos no Linux}
+
+É comum no ambiente GNU/Linux a necessidade de digitar comandos longos
+no terminal, para facilitar esta tarefa pode-se seguir estes passos:
+
+\begin{enumerate}
+     \item Definir o Vim como editor padrão do sistema editando 
+           o arquivo `{\tt .bashrc}\footnote{Arquivo de configuração do bash}':
+           \begin{verbatim}
+               #configura o vim como editor padrão
+               export EDITOR=vim
+               export VISUAL=vim
+            \end{verbatim}
+      \item No terminal usar a combinação de teclas `{\tt Ctrl-x-e}'.
+            Esta combinação de teclas abre o editor padrão do sistema
+            onde se deve digitar o comando longo, ao sair do editor 
+            o terminal executa o comando editado.
+\end{enumerate}
+
+\section{Compilando e verificando erros}
+\vimhelp{cwindow quickfix-window}
+
+Se o seu projeto já possui um {\tt Makefile}, então você pode fazer uso do comando
+{\tt :make} para poder compilar seus programas no conforto de seu Vim:
+
+\begin{verbatim}
+     :make
+\end{verbatim}
+
+A vantagem de fazer isso é poder usar outra ferramenta bastante interessante, a janela
+de {\em quickfix}:
+
+\begin{verbatim}
+     :cw[indow]
+\end{verbatim}
+
+O comando {\tt cwindow} abrirá uma janela em um {\em split} horizontal com a
+listagem de erros e {\em warnings}.  Você poderá navegar pela lista usando os
+cursores e ir diretamente para o arquivo e linha da ocorrência.
+
+Modificando o compilador, o comando {\tt make} pode mudar sua ação.
+
+\begin{verbatim}
+	:compiler javac
+	:compiler gcc
+	:compiler php
+\end{verbatim}
+
+Note que {\em php} não tem um compilador. Logo, quando executado, o {\tt make} irá verificar
+por erros de sintaxes.
+
+\begin{verbatim}
+	:compiler
+\end{verbatim}
+
+O comando acima lista todos os compiladores suportados.
+
+\section{Grep}
+\label{sec:Grep}
+\vimhelp{grep quickfix-window cw}
+
+Do mesmo jeito que você usa {\tt grep} na sua linha de comando você pode usar
+o {\tt grep} interno do Vim. Exatamente do mesmo jeito:
+
+\begin{verbatim}
+     :grep <caminho> <padrão> <opções>
+\end{verbatim}
+
+Use a janela de {\em quickfix}\footnote{{\tt :cope}} aqui também para exibir os resultados do {\tt
+grep} e poder ir diretamente a eles.
+
+\section{Indent}
+
+{\tt Indent}\footnote{http://www.gnu.org/software/indent} 
+é um programa que indenta seu código fonte de acordo com os padrões configurados
+no seu arquivo {\tt HOME/.indent.pro}. Vou pressupor que você já saiba usar o {\tt indent}
+e como fazer as configurações necessárias para ele funcionar, então vamos ao funcionamento 
+dele no Vim:
+
+Para indentar um bloco de código, primeiro selecione-o com o modo {\em visual line} (com {\tt V}), 
+depois é só entrar com o comando como se fosse qualquer outro comando externo:
+\begin{verbatim}
+     :!indent
+\end{verbatim}
+
+No caso, como foi selecionado um bloco de código, irão aparecer alguns caracteres extras, 
+mas o procedimento continua o mesmo:
+\begin{verbatim}
+     :'<,'>!indent
+\end{verbatim}
+
+
+\section{Calculadora Científica com o Vim}
+\label{sec:Calculadora Científica com o Vim}
+
+Para usar a função de Calculadora Científica no Vim usamos uma ferramenta
+externa, que pode ser o comando `{\tt bc}' do GNU/Linux, ou uma linguagem de
+programação como {\em Python} ou {\em Ruby}, veremos como habilitar a
+calculadora usando o {\em Python}. Obviamente esta linguagem de programação
+deve estar instalada no sistema em que se deseja usar seus recursos.  Deve-se
+testar se a versão do Vim tem suporte ao Python ``\verb+:version+'', em seguida
+colocam-se os mapeamentos no ``.vimrc''.
+
+\begin{verbatim}
+     :command! -nargs=+ Calc :py print <args>
+     :py from math import *
+\end{verbatim}
+
+Feito isto pode-se usar o comando ``{\tt :Calc}'' como visto abaixo:
+
+\begin{verbatim}
+     :Calc pi
+     :Calc cos(30)
+     :Calc pow(5,3)
+     :Calc 10.0/3
+     :Calc sum(xrange(1,101))
+     :Calc [x**2 for x in range(10)] 
+\end{verbatim}
+
+\section{Editando saídas do Shell}
+\label{sec:Editando saídas do Shell}
+
+Muitas vezes, precisamos manipular saídas do shell antes de enviá-las por e-mail, reportar ao chefe ou até mesmo 
+salvá-las. Utilizando
+
+\begin{verbatim}
+     vim -
+     ou
+     gvim -
+\end{verbatim}
+
+a saída do Shell é redirecionada para o (G)Vim automaticamente, não sendo
+necessário redirecioná-la para um arquivo temporário e, logo após, abrí-lo para
+editá-lo e modificá-lo. Quem trabalha com sistemas de controle de versão como svn 
+pode visualizar as diferenças entre o código que está sendo editado e o que 
+está no repositório com sintaxe colorida desta forma:
+
+\begin{verbatim}
+    svn diff | view -
+\end{verbatim}
+
+Outra situação em que se pode combinar o vim com saidas do shell é com o
+comando `\verb|grep|'. Usando-se a opção `\verb|-l|' do grep listamos apenas os
+arquivos que correspondem a um padrão.
+
+\begin{verbatim}
+    grep -irl voyeg3r .
+    ./src/img/.svn/entries
+    ./src/Makefile
+    ./src/vimbook.tex
+\end{verbatim}
+
+Pode-se em seguida chamar o vim usando substituição de comandos, como o comando
+`\verb|!!|' corresponde ao último comando, e neste caso a saida corresponde a
+uma lista de arquivos que contém o padrão a ser editado faz-se:
+
+\begin{verbatim}
+    vim ${!!}
+\end{verbatim}
+
+\section{Log do Subversion}
+
+A variável de ambiente {\em \$SVN\_EDITOR} pode ser usada para se especificar o caminho para o editor de texto de
+sua preferência, a fim de usá-lo na hora de dar um {\em commit} usando o {\em subversion}.
+
+\begin{verbatim}
+     export SVN_EDITOR=/usr/bin/vim
+     svn commit
+\end{verbatim}
+
+Será aberto uma sessão no Vim, que depois de salva, será usada para LOG do commit.
+
+\section{Referências}
+
+\begin{itemize}
+ \item \url{http://www.dicas-l.com.br/dicas-l/20070119.php}
+ \item \url{http://vim.wikia.com/wiki/Scientific_calculator}
+ \item \url{http://docs.python.org/library/cmath.html}
+ \item \url{http://docs.python.org/library/math.html}
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

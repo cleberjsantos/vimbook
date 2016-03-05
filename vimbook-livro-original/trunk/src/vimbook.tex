@@ -1,0 +1,260 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% vim:enc=utf-8:ts=5:sw=5:et:ff=unix:
+%
+% Permission is granted to copy, distribute and/or modify this document
+% under the terms of the GNU Free Documentation License, Version 1.3 or
+% any later version published by the Free Software Foundation.
+%	
+% A copy of the license is included in the file called "COPYING".
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[10pt,a4paper,openany]{book}
+\usepackage[utf8]{inputenc}		% se for usar no windows mude esta linha
+\usepackage[portuges]{babel}	% idioma utilizado
+
+\usepackage[T1]{fontenc}		% fonte computer modern
+% se alguém ver alguma diferença, desabilite o comentário abaixo.
+%\usepackage{ae}			% pacote de fontes opcionais
+
+\usepackage{graphicx}			% permite inserir figuras
+%\usepackage{xy}                   % pacote necessário para colocar as figuras das teclas
+%\input xy
+%\xyoption{all}
+\usepackage{subfigure}			% suporte a subfiguras
+\usepackage{color}			% suporte a cor
+
+\usepackage{longtable}			% tabelas longas
+\usepackage{multirow}			% suporte a múltiplas colunas
+
+
+\newcommand{\mc}[3]{\multicolumn{#1}{#2}{#3}}	% novo comando para alinhamento de colunas
+\newcommand{\mr}[3]{\multirow{#1}{#2}{#3}}	% novo comando pára alinhamento de linhas 
+
+\RequirePackage{enumerate}		% extensão para o pacote enumerate
+\usepackage{marvosym}			% gera alguns símbolos
+\usepackage{pifont}			% simbolos de setas
+\usepackage{fancyhdr}			% pacote para personalizar o layout
+
+\usepackage{makeidx}			% inserir índice remissivo
+\makeindex				% construindo arquivo .idx
+
+\usepackage{appendix}			% suporte a apendices
+
+\usepackage{url}			% inserir urls
+\usepackage{hyperref}			% gera os links no pdf
+\hypersetup{
+pdfpagemode=UseOutlines,
+colorlinks=true,
+a5paper,
+breaklinks=true,
+linkcolor=blue,
+anchorcolor=black,
+citecolor=green,
+filecolor=magenta,
+menucolor=red,
+pagecolor=red,
+urlcolor=cyan,
+bookmarksopen=false,
+pdfpagelayout=SinglePage,
+pdfpagetransition=Dissolve
+}				% configurando o hyperref
+
+% Comando \vimhelp
+% Uso: \vimhelp{termo_1, termo_2, ..., termo_n}
+%      onde termo_i é um argumento válido para o comando :help do Vim, isto é,
+%      ':help termo_i' precisa abrir o help para o termo_i.
+%
+% Exemplo de uso: 
+%   \chapter{Verificação Ortográfica}
+%   \vimhelp{spell, spelllang}
+%
+%   Será impresso mais ou menos assim:
+%
+%   Verificação Ortográfica
+%                                                          :h spell, spelllang
+%
+% O comando \vimhelp indica ao leitor como buscar ajuda dentro do próprio Vim
+% para o assunto em questão. Uso indicado para capítulos e seções.
+\newcommand{\vimhelp}[1]{\nopagebreak\par\addvspace{-1.5ex}%
+     \vskip -\parskip\noindent{%
+     \begin{flushright}\scriptsize \textbf{:h} \textsf{#1}\end{flushright}}\par\nopagebreak%
+     \addvspace{1ex plus 0.8ex minus 0.2ex}% 
+     \vskip -\parskip\noindent\ignorespaces}
+
+% novo comando para teclas de atalho: para usar control-n faça --> \key{Ctrl}+\key{N} 
+%\newcommand{\key}[1]{\mbox{\rule[-8.5pt]{0pt}{18pt}}\rule{1pt}{0pt}\framebox[\width]{\vphantom{Yg}\hphantom{-}\texttt{#1}\hphantom{-}}\rule{1pt}{0pt}}
+%\newcommand{\key}[1]{\rule[-5.5pt]{0pt}{16pt}\rule{1pt}{0pt}\raisebox{2.5pt}{\xymatrix@1{*+[F-:<2pt>]{\rule[-2.5pt]{0pt}{11pt}\hphantom{|}\texttt{#1}\hphantom{|}}}\rule{1pt}{0pt}}}
+
+% Defininindo o estilo de página
+\pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}{}}
+\fancyhf{}                              % eliminando a configuração anterior
+\fancyhead[LE,RO]{\bfseries\thepage}	% núm. a esq. na pág. da esq. e a direita em contrário
+\fancyhead[LO]{\bfseries\rightmark}	% para página da esquerda, o título fica a direita
+\fancyhead[RE]{\bfseries\leftmark}	% para página da direita, o título fica a esquerda
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0.0pt}
+\addtolength{\headheight}{2.5pt}    % 0.5pt
+\fancypagestyle{plain}{
+     \fancyhead{}
+     \renewcommand{\headrulewidth}{0pt}
+     }
+
+\newcommand{\dica}[1]{{{\large \ding{42}}}}	% inserir imagem para dica, provido por pifont
+
+\setlength{\parindent}{0em} % indentação dos parágrafos
+\setlength{\parskip}{5pt plus 1pt minus 1pt} 
+
+
+
+% Numeração romana para as páginas iniciais
+\pagenumbering{roman}
+
+\begin{document}
+\DeclareGraphicsExtensions{.jpg,.pdf,.mps,.png,.eps}	% extensões de imagens
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% CAPA %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{titlepage}
+\thispagestyle{empty}
+\begin{figure}[htp]
+    \centering
+    % o ideal seria o viewport no lugar de bb
+    \includegraphics[bb=100 0 500 716]{img/capa.png}	
+    %\includegraphics[scale=0.5]{img/capa.png}
+    %\includegraphics[width=\paperwidth,height=\paperheight]{img/capa.png}
+\end{figure}
+\clearpage
+%\cleardoublepage
+%\end{titlepage}
+
+%%%%%%%%%%%%%%%%%%%% Título do documento %%%%%%%%%%%%%%%%%%%%%%%
+\thispagestyle{empty}
+%\begin{titlepage}
+\begin{center}
+
+{\Huge \sc o editor de texto Vim}
+
+% logo do Vim
+  \vspace{2cm}
+  \begin{figure}[h]
+    \center
+    \includegraphics{img/vimlogo.png}
+    \label{logodovim}
+\end{figure}
+
+   \vspace{5cm}
+   \begin{flushright}
+   \begin{minipage}[t]{8cm}
+          ``Um livro escrito em português sobre o editor de texto {\bf Vim}. A ideia é que este
+          material cresça e torne-se uma referência confiável
+          e prática. Use este livro nos termos da {\em Licença de Documentação Livre GNU} (GFDL).'' \\
+          \par Este trabalho está em constante aprimoramento, e é fruto da
+          colaboração de voluntários. Participe do desenvolvimento enviando sugestões e
+          melhorias; acesse o site do projeto no endereço: \\
+\begin{center}
+          \url{http://code.google.com/p/vimbook}
+\end{center}
+        
+   \end{minipage} \\
+   \end{flushright}
+
+   \vspace{3cm}
+
+   {\small Versão gerada em \\ \bf \today} % especifica a versão do PDF pelo dia que o gerou.
+\end{center}
+%\end{titlepage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+\thispagestyle{empty}
+
+\begin{center}
+{\Huge \bf Autores}
+
+\vspace{2cm}
+
+\begin{tabular}{cc}
+\bf Sérgio Luiz Araújo Silva 	& \tt <voyeg3r@gmail.com> 			\\
+\bf Douglas Adriano Augusto 	& \tt <daaugusto@gmail.com>			\\
+\bf Eustáquio Rangel 			& \tt <eustaquiorangel@gmail.com> 	\\
+\bf Eduardo Otubo 				& \tt <eduardo.otubo@gmail.com> 	\\
+\bf Gustavo Dutra 				& \tt <gustavotkg@gmail.com> 		\\
+\bf João Felipe Mitre 			& \tt <jfmitre@gmail.com> 		\\
+\bf Willian Molinari 			& \tt <willian.molinari@gmail.com>	\\
+$\vdots$ 						& $\vdots$ 							\\
+\end{tabular}
+
+\end{center}
+
+\newpage
+\tableofcontents
+
+% Numeração arábica
+\clearpage
+\pagebreak
+\pagenumbering{arabic}
+% \setcounter{page}{0} %reset the page counter
+
+\include{intro}
+\include{editando}
+\include{movendo}
+\include{folders}
+\include{registros}
+\include{buscas}
+\include{janelas}
+\include{repeticao}
+\include{externos}
+\include{vero}
+\include{sessoes}
+\include{preferencias}
+\include{wiki}
+\include{habitos}
+\include{plugins}
+\include{referencias}
+
+%\nocite{*} % Se descomentado, todas as referências do arquivo 
+            % de bibliografia serão adicionadas ao texto, mesmo 
+            % se não forem citados.
+% Redefinindo o estilo de topo de página
+\fancyhf{} 
+\fancyhead[LE,RO]{\bfseries\thepage}
+\fancyhead[LO]{\bfseries Referências Bibliográficas}
+\fancyhead[RE]{\bfseries Referências Bibliográficas}
+% Estilo de Blibliografia
+% coppe-unsrt é o estilo COPPE de referência baseado
+% em código numérico.
+% Uma mistura de ABNT com algo indefinido.
+\bibliographystyle{coppe-unsrt}
+\bibliography{bibliografia}
+
+% Incluindo os apêndices
+% \backmatter % se descomentado, remove a expressão "Apêndice LETRA" 
+% colocando de volta o estilo de topo de página.
+% \fancyhf{} 
+% \fancyhead[LE,RO]{\bfseries\thepage}
+% \fancyhead[LO]{\bfseries\rightmark}
+% \fancyhead[RE]{\bfseries\leftmark}
+% \appendix
+% \include{sem_anexos_reais_no_momento}
+
+% Anexo, que não é anexo, é uma página dos finalmentes.
+% Da forma que está abaixo, fica uma homenagem mais agradável
+\clearpage
+% Estilo de topo
+\fancyhf{} 
+% É visualmente mais agradável sem
+% \fancyhead[LE,RO]{\bfseries\thepage}
+% \fancyhead[LO]{\bfseries Colaboradores}
+% \fancyhead[RE]{\bfseries Colaboradores}
+% Inclui a lista de colaboradores, conscientes e inconscientes. 
+\include{colaboradores}
+\include{comunidade}
+
+% índice
+\fancyhf{} 
+\fancyhead[LE,RO]{\bfseries\thepage}
+\fancyhead[LO]{\bfseries Índice}
+\fancyhead[RE]{\bfseries Índice}
+% é a última coisa do livro
+\printindex
+\end{document}

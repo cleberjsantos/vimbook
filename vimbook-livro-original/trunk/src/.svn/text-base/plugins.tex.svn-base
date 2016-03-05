@@ -1,0 +1,436 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% vim:enc=utf-8:ts=5:sw=5:et:ff=unix:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Plugins}\label{Plugins}
+``{\em Plugins}''\footnote{Plugins são recursos que se adicionam aos programas}
+são um meio de estender as funcionalidades do Vim, há ``{\em plugins}'' para
+diversas tarefas, desde wikis para o Vim até ferramentas de auxílio a navegação
+em arquivos com é o caso do ``{\em plugin}''
+\href{http://www.vim.org/scripts/script.php?script\_id=1658}{NerdTree}~\cite{PluginNerdTree}, que
+divide uma janela que permite navegar pelos diretórios do sistema a fim de
+abrir arquivos a serem editados.
+
+\section{Como testar um plugin sem instalá-lo?}
+\label{Como testar um plugin sem instala-lo?}
+
+\begin{verbatim}
+     :source <path>/<plugin>
+\end{verbatim}
+
+Caso o plugin atenda as necessidades, pode-se instalá-lo. Este
+procedimento também funciona para temas de cor!
+
+
+No GNU/Linux
+\begin{verbatim}
+     ~/.vim/plugin/
+\end{verbatim}
+
+No Windows
+
+\begin{verbatim}
+     ~/vimfiles/plugin/
+\end{verbatim}
+
+Obs: Caso ainda não exista o diretório, ele pode ser criado pelo próprio usuário
+
+Exemplo no GNU/Linux
+
+\begin{verbatim}
+     + /home/usuario/
+                 |
+                 |
+                 + .vim
+                   |
+                   |
+                   + plugin
+\end{verbatim}
+
+Obs: Alguns plugins dependem da versão do Vim, para saber qual
+a que está atualmente instalada:
+
+\begin{verbatim}
+     :ve[rsion]
+\end{verbatim}
+
+\section{Atualizando a documentação dos plugins}\label{sec:Atualizando a documentação dos plugins}
+\vimhelp{helptags}
+Caso seja adicionado algum arquivo de documentação em `\verb+~/.vim/doc+' pode-se 
+gerar novamente as tags ``links'' para navegação de ajuda.
+
+\begin{verbatim}
+    :helptags $VIMRUNTIME/doc
+    :helptags ~/.vim/doc
+\end{verbatim}
+
+
+\section{Plugin para \LaTeX}
+\label{Plugin para LaTeX}
+
+Um plugin completo para \LaTeX está acessível
+\href{http://vim-latex.sourceforge.net/}{aqui}~\cite{PluginLatex}. Uma vez adicionado o plugin você pode
+inserir seus {\em templates} em:
+
+\begin{verbatim}
+     ~/.vim/ftplugin/latex-suite/templates
+\end{verbatim}
+
+
+\section{Criando {\em folders} para arquivos \LaTeX}
+\label{Criando folders para arquivos LaTeX}
+
+\begin{verbatim}
+     set foldmarker=\\begin,\\end
+     set foldmethod=marker
+\end{verbatim}
+
+Adicionar marcadores ({\em labels}) às seções de um documento \LaTeX
+\begin{verbatim}
+     :.s/^\(\\section\)\({.*}\)/\1\2\r\\label\2
+     
+     : ........... comando
+     / ........... inicia padrão de busca
+     ^ ........... começo de linha
+     \(palavra\) . agrupa um trecho
+     \(\\section\) agrupa `\section'
+     \\ .......... torna \ literal
+     { ........... chave literal
+     .* .......... qualquer caractere em qualquer quantidade
+     } ........... chave literal
+     / ........... finaliza parão de busca
+     \1 .......... repeter o grupo 1 \(\\section\) 
+     \2 .......... repete o grupo 2 \({.*\}\)
+     \r .......... insere quebra de linha
+     \\ .......... insere uma barra invertida
+     \2 .......... repete o nome da seção
+\end{verbatim}
+
+\section{Criando seções \LaTeX}\label{Criando seções latex}
+o comando abaixo substitui
+
+\begin{verbatim}
+     ==seção==
+\end{verbatim}
+
+   por
+
+\begin{verbatim}
+     \section{seção}
+\end{verbatim}
+
+\begin{verbatim}
+     :.s/^==\s\?\([^=]*\)\s\?==/\\section{\1}/g
+     
+     : ......... comando
+     . ......... linha atual
+     s ......... substitua
+     ^ ......... começo de linha
+     == ........ dois sinais de igual
+     \s\? ...... seguido ou não de espaço
+     [^=] ...... não pode haver = (^ dentro de [] é negação)
+     * ......... diz que o que vem antes pode vir zero ou mais vezes
+     \s\? ...... seguido ou não de espaço
+     \\ ........ insere uma barra invertida
+     \1 ........ repete o primeiro trecho entre ()
+\end{verbatim}
+
+\section{Plugin para manipular arquivos}
+\index{plugins!arquivos}
+
+Acesse o plugin neste
+\href{http://www.vim.org/scripts/script.php?script\_id=2337#0.1.9}{link}~\cite{PluginParaArquivos01}.
+Para entender este plugin acesse um vídeo
+\href{http://www.screencast.com/t/P6nJkJ0DE}{neste
+link}~\cite{PluginParaArquivos02}.
+
+\section{Complementação de códigos}
+\label{Complementação de códigos}
+\index{snippets}
+
+O ``{\em plugin}'' snippetsEmu é um misto entre complementação de códigos e
+os chamados modelos ou {\em templates}. Insere um trecho de código pronto,
+mas vai além disso, permitindo saltar para trechos do modelo inserido
+através de um atalho configurável de modo a agilizar o trabalho do
+programador. \href{http://www.vim.org/scripts/script.php?script\_id=1318}{Link para baixar}~\cite{PluginSnippetsEmu}.
+
+\subsection{Instalação}
+\label{Instalação}
+
+Um artigo ensinando como instalar o ``{\em plugin}'' snippetsEmu pode ser lido 
+\href{http://vivaotux.blogspot.com/2008/03/instalando-o-plugin-snippetsemu-no-vim.html}{nesse artigo na internet}~\cite{SilvasnipptsEmu}.
+Outro plugin muito interessante para complementação é o ``autocompletepopup'' que complementa 
+mostrando um popup durante a digitação, o mesmo pode ser obtido 
+\href{http://www.vim.org/scripts/script.php?script\_id=1879}{neste link}~\cite{NishidaAutoCompletePopup}, em seguida coloca-se esta 
+linha ao vimrc:
+
+\begin{verbatim}
+     let g:AutoComplPop_CompleteoptPreview = 1
+\end{verbatim}
+
+A linha acima faz com que o vim abra uma janela pequena com a documentação
+de cada método que está sendo digitado.
+
+\section{Um wiki para o Vim}\label{sec:Um wiki para o Vim}
+\index{plugins!wiki}
+
+O ``{\em plugin}'' wikipot implementa um wiki para o Vim no qual você define um
+``link'' com a notação WikiWord, onde um ``link'' é uma palavra que começa com
+uma letra maiúscula e tem outra letra maiúscula no meio Obtendo o plugin
+\href{http://www.vim.org/scripts/script.php?script\_id=1018}{neste
+link}~\cite{PluginPotWiki}.
+
+\section{Acessando documentação do Python no Vim}\label{Acessando documentação do Python no Vim}
+\index{plugins!python}
+ Obtenha um plugin para esta tarefa em seu 
+ \href{http://www.vim.org/scripts/script.php?script\_id=910}{site oficial}~\cite{PluginDocPython}.
+
+\section{Formatando textos planos com syntax}\label{Formatando textos planos com syntax}
+\index{plugins!texto plano}
+
+Um plugin que adiciona syntaxe colorida a textos planos pode ser obtido
+\href{http://www.vim.org/scripts/script.php?script\_id=2208&rating=helpful#1.3}{neste
+link}~\cite{PluginTextoPlano}.  Veja como instalar o este plugin no capítulo
+\ref{sec:Um wiki para o Vim}.
+
+\section{Movimentando em {\em camel case}}\label{Movimentando em camel case}
+\index{plugins!camel case motion}
+
+O {\em plugin} \href{http://www.vim.org/scripts/script.php?script\_id=1905}{{\tt
+CamelCaseMotion}}~\cite{PluginCamelCaseMotion} auxilia a navegação em palavras em
+\href{http://en.wikipedia.org/wiki/Camel\_case}{{\em camel case}}~\cite{WikipediaCamelCase} ou separadas
+por sublinhados, através de mapeamentos similares aos que fazem a movimentação
+normal entre strings, e é um recurso de grande ajuda quando o editor é
+utilizado para programação. 
+
+Após instalado o plugin, os seguintes atalhos ficam disponíveis:
+\begin{description}
+ \item [,w] Movimenta para a próxima posição {\em camel} dentro da string
+ \item [,b] Movimenta para a posição {\em camel} anterior dentro da string
+ \item [,e] Movimenta para o caractere anterior à próxima posição {\em camel} dentro da string
+\end{description}
+
+Fonte: \href{http://eustaquiorangel.com/posts/522}{Blog do Eustáquio
+Rangel}~\cite{SiteEustaquioRangel03}
+
+\section{Aumentar a fonte} 
+\label{sec:Aumentar a fonte}
+\href{http://www.vim.org/scripts/script.php?script\_id=2809}{font size plugin}~\cite{AumentarFonte}
+% section Aumentar a fonte (end)
+
+\section{Plugin FuzzyFinder}\label{sec:Plugin FuzzyFinder}                                       
+Este plugin é a implementação de um recurso do editor 
+Texmate\footnote{Editor de textos da Apple com muitos recursos}.
+Sua proposta é acessar de forma rápida:
+
+\begin{enumerate}
+\item Arquivos \verb|:FuzzyFinderFile|
+\item Arquivos recém editados \verb|:FuzzyFinderMruFile|
+\item Comandos recém utilizados \verb|:FuzzyFinderMruCmd|
+\item Favoritos \verb|:FuzzyFinderAddBookmark, :FuzzyFinderBookmarks|
+\item Navegação por diretórios \verb|:FuzzyFinderDir|
+\item Tags {\tt :FuzzyFinderTag}
+\end{enumerate}
+
+Para ver o plugin em ação acesse este
+\href{http://vimeo.com/2938498}{video} para obte-lo acesse 
+ \href{http://www.vim.org/scripts/script.php?script\_id=1984}{este endereço},
+para instalá-lo basta copiar para o diretório 
+{\tt ~/.vim/plugin}.
+
+\section{O plugin EasyGrep}
+\label{sec:O plugin EasyGrep}
+
+Usuários de sistemas {\em Unix Like}\footnote{Sistemas da família Unix tipo o
+GNU/Linux}, já conhecem o poder do comando {\tt grep}, usando este comando
+procuramos palavras dentro de arquivos, este plugin simplifica esta tarefa,
+além de permitir a utilização da versão do {\tt grep} nativa do Vim {\tt
+vimgrep}, assim usuários do Windows também podem usar este recurso. Um comando
+{\tt grep} funciona mais ou menos assim:
+
+\begin{verbatim}
+     grep [opções] "padrão" /caminho
+\end{verbatim}
+
+Mas no caso do plugin {\em EasyGrep} fica assim:
+
+\begin{verbatim}
+     :Grep foo  ........ procura pela palavra 'foo'
+     :GrepOptions ...... exibe as opções de uso do plugin
+\end{verbatim}
+
+O plugin pode ser obtido no seguinte
+\href{http://www.vim.org/scripts/script.php?script\_id=2438#0.9}{endereço}, já sua instalação
+é simples, basta copiar o arquivo obtido no link acima para a pasta:
+   
+\begin{verbatim}
+     ~/.vim/plugin .......... no caso do linux
+     ~/vimfiles/plugin ...... no caso do windows
+\end{verbatim}
+
+Um vídeo de exemplo (na verdade uma animação gif) pode ser visto
+\href{http://downloads.veryspeedy.net/vim/EasyGrep.gif}{aqui}.
+
+\section{O plugin {\em SearchComplete}}
+Para que o vim complete opções de busca ``com a tecla <tab>'', digita-se uma
+palavra parcialmente e o plugin atua, exibindo palavras que tem 
+o mesmo início, por exemplo:
+
+\begin{verbatim}
+     /merca<tab>
+     /mercado
+     /mercantil
+     /mercadológico
+\end{verbatim}
+
+Cada vez que se pressiona a tecla {\tt <tab>} o cursor saltará para 
+a próxima ocorrência daquele fragmento de palavra.
+Pode-se obter o plugin {\em SearchComplete} no seguinte 
+\href{http://www.vim.org/scripts/script.php?script\_id=474}{endereço}, 
+e para instalá-lo basta copiá-lo para a pasta apropriada:
+    
+\begin{verbatim}
+     ~/vimfiles/plugin .......... no windows
+     ~/.vim/plugin .............. no Gnu/Linux
+\end{verbatim}
+
+Há outro plugin similar chamado {\tt CmdlineComplete} disponível  
+\href{http://www.vim.org/scripts/script.php?script\_id=2222}{neste link}.
+
+
+\section{O plugin {\em AutoComplete}}\label{sec:O Plugin AutoComplete}
+Este plugin trabalha exibindo sugestões no modo de inserção, à
+medida que o usuário digita aparece um {\em popup} com sugestões para possíveis
+complementos, bastando pressionar {\tt <Enter>} para aceitar as sugestões.
+Neste \href{http://www.vim.org/scripts/script.php?script\_id=1879}{link}, você pode
+fazer o {\em download} do plugin.
+
+\section{O plugin {\em Ctags}}
+\label{sec:O Plugin Ctags}
+
+{\em Ctags} em si é um programa externo que indexa arquivos de código fonte. Ele lê
+o código fonte em busca de identificadores, declarações de função, variáveis, e constrói seu 
+índex de referências cruzadas. Mas vamos ao plugin, mesmo por que não estamos no CtagsBook.
+
+Primeiro precisamos ter o arquivos de tags. Para tal, usamos o comando:
+
+\begin{verbatim}
+    ctags -R <arquivos>
+\end{verbatim}
+
+Normalmente o parâmetro <arquivos> pode ser uma expressão regular do tipo *.[ch]
+e afins. Depois de obter o arquivo de tags, você já pode sair usando os atalhos
+do plugin para navegar pelo código fonte.  Com o cursor em cima de um
+identificador, usando o atalho `\verb|ctrl+]|' o cursor pula diretamente para a
+sua declaração. O atalho `\verb|ctrl+o|' volta o cursor para a posição inicial.
+
+{\Large {\ding{45}}} Quando navegando por um código
+fonte muito extenso com vários diretórios, é mapear o caminho dos arquivos
+usando o caminho absoluto deles no seu diretório de trabalho deste jeito:
+
+\begin{verbatim}
+     find $(pwd) -regex ".*py$" | xargs ctags
+\end{verbatim}
+
+Assim você pode copiar o arquivo de tags para todos os diretórios e mesmo assim conseguir usar 
+os atalhos do plugin para navegar no código fonte.
+
+Pode-se obter o programa {\em Ctags} neste
+\href{http://ctags.sourceforge.net/}{link}. O plugin de {\em Ctags} para o Vim está neste 
+\href{http://vim.sourceforge.net/scripts/script.php?script\_id=12}{link}'', 
+e para instalá-lo basta copiá-lo para a pasta apropriada:
+    
+\begin{verbatim}
+     ~/vimfiles/plugin .......... no windows
+     ~/.vim/plugin .............. no Gnu/Linux
+\end{verbatim}
+
+
+\section{O Plugin {\em Project}}
+
+O plugin project acessível através deste \href{http://www.vim.org/scripts/script.php?script\_id=69}{link}
+cria toda uma estrutura de gerenciamento de projetos, para programadores é uma funcionalidade
+extremamente necessária, costuma-se trabalhar com vários arquivos da mesma família ``extensão'', 
+e ao clicar em um dos arquivos do projeto o mesmo é aberto instantaneamente.
+
+\begin{verbatim}
+     :Project ......... abre uma janela lateral para o projeto
+     \C ............... inicia a criação de um projeto (recursivamente)
+     \c ............... inicia a criação de um projeto na pasta local
+\end{verbatim}
+
+Após digitar o atalho de criação do projeto aparecerá uma janela para designar um nome
+para o mesmo, em seguida digita-se o caminho para o diretório do projeto, após isto
+digita-se `.' (ponto) como parâmetro, cria-se um filtro como `{\tt *.py}'.
+Para criar uma entrada (acesso ao plugin) no menu do Gvim colocamos
+a seguinte linha no `{\tt vimrc}'.
+
+\begin{verbatim}
+     amenu &Projetos.togle <Plug>ToggleProject<cr>
+\end{verbatim}
+
+Pode-se definir um projeto manualmente assim:
+
+\begin{verbatim}
+     nome=~/docs/ CD=. filter="*.txt" {
+
+     }
+\end{verbatim}
+
+Ao recarregar o Vim pode-se abrir o {\em Plugin} ``{\tt :Projetc}'' e 
+pressionar o atalho `\verb+\r+' para que o mesmo gere um índice dos arquivos
+contidos no caminho indicado.
+   
+
+\section{O plugin pydiction}
+\label{sec:O plugin pydiction}
+
+Um que completa códigos python assim:
+
+\begin{verbatim}
+    import sys
+    sys.<tab>
+\end{verbatim}
+
+O plugin contém dois arquivos:
+
+\begin{enumerate}
+    \item {\tt pydiction.py} deve ser colocado no {\tt path}
+    \item {\tt pydiction} deve ser colocado em um lugar de sua preferência
+\end{enumerate}
+
+Deve-se adicionar algumas linhas do {\tt .vimrc}.
+No exemplo abaixo o dicionário é adicionado ao diretório {\tt ~/.vim/dict}
+\begin{verbatim}
+if has("autocmd")
+    autocmd FileType python set complete+=k/.vim/dict/pydiction isk+=.,(
+endif " has("autocmd") 
+\end{verbatim}
+
+Pode-se obter o plugin  \href{http://www.vim.org/scripts/script.php?script\_id=850}{neste link}.
+
+\section{O plugin FindMate}
+\label{sec:O plugin FindMate}
+
+Um plugin que agiliza a busca por arquivos na pasta pessoal, disponível neste
+ \href{http://snipt.net/voyeg3r/findmate-plugin-for-vim/}{link}. Basta
+coloca-lo na pasta ``{\tt /home/usuario/.vim/plugins/}'' e digitar duas vezes
+vírgula e ele substituirá para:
+
+\begin{verbatim}
+    :FindMate 
+\end{verbatim}
+
+Digita-se então uma palavra e <Enter> para se obter a lista de arquivos que
+correspondem ao padrão.
+
+\section{Atualizando a documentação dos plugins}
+\label{sec:Atualizando a documentacao dos plugins}
+\vimhelp{helptags}
+
+Caso seja adicionado algum arquivo de documentação em em `\verb+~/.vim/doc+' pode-se
+gerar novamente as tags ``links'' para navegação de ajuda.
+
+\begin{verbatim}
+   :helptags ~/.vim/doc
+\end{verbatim}
