@@ -23,7 +23,7 @@ a letra `d`. Em modo normal pressionar a tecla
 `v` inicia uma seleção visual (use as setas de direção).
 Para sair do modo visual `<Esc>`. Como um dos princípios do vim é
 agilidade pode-se usar ao invés de setas (em modo normal) as letras
-‘`h,l,k,j`’ como se fossem setas:
+`h,l,k,j` como se fossem setas:
 
              k
          h       l
