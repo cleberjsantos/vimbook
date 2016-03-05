@@ -34,3 +34,28 @@ Outros
 É muito bem vindo correções de ortografia, erros de digitação e outras coisas.
 
 Quando aceito o PR, uma nova versão do livro é gerada automaticamente.
+
+
+Dicas
+-----
+
+* Substituir padrão *LaTex* de itálico (`{\em Texto}`) pelo padrão markdown (`*Texto*`)
+```
+:%s/{\\em \([^}]*\)}/*\1*/g
+```
+* Substituir o padrão *LaTex* de título (`\section{Título}`) pelo título normal (`Título`)
+```
+:%s/\\section{\([^}]*\)}/\1/g
+```
+* Substituir o padrão *LaTeX* de subtítulo (`\subsection{SubTítulo}`) pelo padrão markdown (`### SubTítulo`)
+```
+:%s/\\subsection{\([^}]*\)}/### \1/g
+```
+* Substituir o padrão *LaTeX* de link (`\href{link}{texto}`) pelo padrão markdown (`[texto](link)`)
+```
+:%s/\\href{\([^}]*\)}{\([^}]*\)}/[\2](\1)/g
+```
+* Substituir o padrão *LaText* de fonte diferenciada (`{\tt texto}`) pelo padrão markdown de highlighting (``texto``)
+```
+:%s/{\\tt \([^}]*\)}/`\1`/g
+```
