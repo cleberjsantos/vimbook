@@ -1,25 +1,27 @@
 Transcrição de capítulos
 ========================
 
-Clone o repositório
+* Clone o repositório
 
 `git clone https://github.com/cassiobotaro/vimbook.git`
 
-Crie seu feature-branch
+* Crie seu feature-branch
 
 `git checkout -b capitulo-x`
 
-Atribua issue correspondente a capítulo escolhido a seu usuário.
+* Atribua a issue correspondente ao capítulo escolhido a seu usuário.
 
 [Issues](https://github.com/cassiobotaro/vimbook/issues)
 
-Adicione o capítulo ao sumário.
+* Crie um diretório para o capítulo na raiz do projeto no formato `capitulo_n` (exemplo `capitulo_15`).
+
+* Adicione o capítulo ao sumário.
 
 [SUMMARY](SUMMARY.md)
 
-Envie PR do capítulo.
+* Envie PR do capítulo.
 
-Os [capítulos](https://github.com/cassiobotaro/vimbook/tree/master/chapters) se encontram em formato markdown, com alguns problemas de formatação pois foram diretamente gerados à partir do .tex.
+Os [capítulos](https://github.com/cassiobotaro/vimbook/tree/master/chapters) originais se encontram em formato markdown, com alguns problemas de formatação pois foram diretamente gerados à partir do .tex.
 
 *Por favor remova as tags span encontradas.*
 
