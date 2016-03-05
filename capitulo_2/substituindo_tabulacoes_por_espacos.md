@@ -1,4 +1,4 @@
-Substituindo tabulações por espaços {#sec:Substituindo tabulações por espaços}
+Substituindo tabulações por espaços
 -----------------------------------
 
 Se houver necessidade[^2] de trocar tabulações por espaços fazemos
