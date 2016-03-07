@@ -40,7 +40,7 @@ exigida por um editor texto para aumentar a produtividade.
 Ao contrário, sugere-se que leia-se todo o conteúdo. Identifique quais
 são as atividades de maior recorrência no estilo individual de escrita e
 busque como realizar tais funções com mais fluência nesse editor. A
-prática levará ao uso de fluente desse comandos principais, abrindo
+prática levará ao uso fluente desse comandos principais, abrindo
 espaço para os demais comandos.
 
 Isso não impede que o usuário experimente cada comando conforme for
