@@ -8,7 +8,7 @@ salvar o antigo:
 
          :enew!
 
-O comando acima é uma abreviação de `*edit new*`. De modo
+O comando acima é uma abreviação de `edit new`. De modo
 similar pode-se ignorar todas as alterações feitas desde a abertura do
 arquivo:
 

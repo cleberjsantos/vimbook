@@ -5,7 +5,7 @@ Para mover um trecho usando o modo de comandos faça:
 
          :10,20m $
 
-O comando acima move ‘`m`’ da linha 10 até a linha 20 para o
+O comando acima move `m` da linha 10 até a linha 20 para o
 final `$`.
 
          :g /palavra/ m 0
@@ -35,7 +35,7 @@ linhas contendo a palavra ‘padrão’.
          :v/\S/d ............ apaga linhas vazias
          \S ................. significa "string"
 
-A opção acima equivale a “`:g!/padrão/d`”. Para ler mais sobre o comando
+A opção acima equivale a `:g!/padrão/d`. Para ler mais sobre o comando
 “global” utilizado nesta seção veja o capítulo [6.13](capitulo_6/o_comando_global_g.md).
 
 
