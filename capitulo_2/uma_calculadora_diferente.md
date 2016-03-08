@@ -3,10 +3,10 @@ Uma calculadora diferente
 
 Sempre que for necessário digitar o resultado de uma expressão
 matemática (portanto no modo de inserção) pode-se usar o atalho
-“`Ctrl-r =`”, ele ativa o registro de expressões, na linha de
+`Ctrl-r =`, ele ativa o registro de expressões, na linha de
 comando do Vim aparece um sinal de igual, digita-se então uma expressão
-matemática qualquer tipo “`35\*6`” e em seguida pressiona-se
-“`Enter`”, o Vim coloca então o resultado da expressão no
+matemática qualquer tipo `35\*6` e em seguida pressiona-se
+`Enter`, o Vim coloca então o resultado da expressão no
 lugar desejado. Portanto não precisa-se recorrer a nenhuma calculadora
 para fazer cálculos. Pode-se fazer uso do “Registro de Expressões”
 dentro de macros, ou seja, ao gravar ações pode-se fazer uso deste

@@ -9,7 +9,7 @@ Para especificar um novo nome para o arquivo, simplesmente digite:
 
          :w! >> “file”
 
-O conteúdo será gravado no arquivo “`file`” e você continuará
+O conteúdo será gravado no arquivo `file` e você continuará
 no arquivo original.
 
 Também existe o comando

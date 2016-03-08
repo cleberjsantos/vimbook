@@ -4,7 +4,7 @@ Substituindo tabulações por espaços
 Se houver necessidade[^2] de trocar tabulações por espaços fazemos
 assim:
 
-          :set tabstop=4 "tamanho da parada de tabulação
+         :set tabstop=4 "tamanho da parada de tabulação
          :set expandtab
          :retab
 
@@ -19,8 +19,8 @@ onde
 Explicando:
 
         : ............ comando
-        % ............ em todo arquivo 
-        s ............ substitua 
+        % ............ em todo arquivo
+        s ............ substitua
         / ............ padrão de busca
         \s ........... localiza espaço
         \{4,} ........ quatro vezes

@@ -1,19 +1,18 @@
 Desfazendo
 ----------
 
-Se você cometer um erro, não se preocupe! Use o comando
-‘`u`’:
+Se você cometer um erro, não se preocupe! Use o comando `u`:
 
          u ............ desfazer
          U ............ desfaz mudanças na última linha editada
          Ctrl-r  ...... refazer
 
-### `*Undo tree*`
+### Undo tree
 
 Um novo recurso muito interessante foi adicionado ao Vim “a partir da
 versão 7” é a chamada árvore do desfazer. Se você desfaz alguma coisa,
-fez uma alteração um novo `*branch*` ou galho, derivação de
-alteração é criado. Basicamente, os `*branches*` nos permitem
+fez uma alteração um novo `branch` ou galho, derivação de
+alteração é criado. Basicamente, os `branches` nos permitem
 acessar quaisquer alterações ocorridas no arquivo.
 
 #### Um exemplo didático
@@ -42,7 +41,7 @@ Passo 3
 
 Passo 4
 
-:   - pressione ‘`u`’ duas vezes (você voltará ao passo 1)
+:   - pressione `u` duas vezes (você voltará ao passo 1)
 
 Passo 5
 
@@ -73,7 +72,7 @@ e/ou
 
 Dessa forma você acessará todas as alterações ocorridas no texto.
 
-### `*Máquina do tempo*`
+### Máquina do tempo
 
 O Vim possui muitas formas para desfazer e refazer, e uma das mais
 interessantes é a máquina do tempo! A máquina do tempo é extremamente
@@ -92,8 +91,8 @@ no tempo:
 
         :later 60s
 
-Note que dessa vez foi utilizado `*later*` ao invés de
-`*earlier*`, e passando segundos como argumento para viajar
+Note que dessa vez foi utilizado `later` ao invés de
+`earlier`, e passando segundos como argumento para viajar
 no tempo. Portanto o comando acima avança 60 segundos no tempo.
 
 Para uma melhor visão de quanto se deve voltar, pode ser usado o

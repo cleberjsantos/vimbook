@@ -17,7 +17,7 @@ trecho contendo algo como:
          11
          12
 
-Você tentar fazer:
+E você tentar fazer:
 
          :sort
 

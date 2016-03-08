@@ -20,13 +20,13 @@ outros editores simples, caracteres que constituem o conteúdo do texto
 sendo digitado. O que inclui as teclas de edição de caracteres.
 
 Para salvar o conteúdo escrito, digite a tecla `<Esc>` para sair do modo
-de inserção e digite o comando ‘`:w`’ para gravar o conteúdo. Caso
-queira sair do editor, digite o comando: ‘`:q`’ caso tenha ocorrido
+de inserção e digite o comando `:w` para gravar o conteúdo. Caso
+queira sair do editor, digite o comando: `:q` caso tenha ocorrido
 modificações no arquivo desde que ele foi salvo pela última vez haverá
 uma mensagem informando que o documento foi modificado e não foi salvo,
-nesse caso, digite o comando \``:q!` para fechar o Vim **sem
-salvar** as últimas modificações feitas. Caso queira salvar e
-sair do arquivo, digite o comando ‘`:wq`’
+nesse caso, digite o comando `:q!` para fechar o Vim **sem salvar**
+as últimas modificações feitas. Caso queira salvar e
+sair do arquivo, digite o comando `:wq`
 
 Nesse ponto, conhece-se o vim de forma suficiente para editar qualquer
 coisa nele. Daqui por diante o que existe são as formas de realizar a
@@ -40,7 +40,7 @@ exigida por um editor texto para aumentar a produtividade.
 Ao contrário, sugere-se que leia-se todo o conteúdo. Identifique quais
 são as atividades de maior recorrência no estilo individual de escrita e
 busque como realizar tais funções com mais fluência nesse editor. A
-prática levará ao uso de fluente desse comandos principais, abrindo
+prática levará ao uso fluente desse comandos principais, abrindo
 espaço para os demais comandos.
 
 Isso não impede que o usuário experimente cada comando conforme for

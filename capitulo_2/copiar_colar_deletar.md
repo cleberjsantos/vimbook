@@ -2,20 +2,20 @@ Copiar, Colar e Deletar
 -----------------------
 
 No modo normal, o ato de deletar ou eliminar o texto está associado à
-letra “`d`”. No modo de inserção as teclas usuais também funcionam.
+letra `d`. No modo de inserção as teclas usuais também funcionam.
 
          dd .... deleta linha atual
          D ..... deleta restante da linha
          d$ .... deleta do ponto atual até o final da linha
-         d^ .... deleta do cursor ao primeiro caractere não-nulo da 
+         d^ .... deleta do cursor ao primeiro caractere não-nulo da
                  linha
          d0 .... deleta do cursor ao início da linha
 
-Pode-se combinar o comando de deleção “`d`” com o comando de movimento
+Pode-se combinar o comando de deleção `d` com o comando de movimento
 (considere o modo normal) para apagar até a próxima vírgula use:
-“`df,`”.
+`df,`.
 
-Copiar está associado à letra “`y`”.
+Copiar está associado à letra `y`.
 
          yy .... copia a linha atual
          Y ..... copia a linha atual
@@ -31,7 +31,7 @@ O que foi deletado ou copiado pode ser colado:
 
 ### Deletando uma parte do texto
 
-O comando ‘`d`’ remove o conteúdo para a memória.
+O comando `d` remove o conteúdo para a memória.
 
          x .... apaga o caractere sob o cursor
          xp ... troca letras de lugar
@@ -53,18 +53,18 @@ O comando ‘`d`’ remove o conteúdo para a memória.
          d% ... deleta até o próximo (,[,{
          da" .. deleta aspas com conteúdo
 
-Depois do texto ter sido colocado na memória, digite ‘`p`’
+Depois do texto ter sido colocado na memória, digite `p`
 para ‘inserir’ o texto em uma outra posição. Outros comandos:
 
-         diw .. apaga palavra mesmo que não esteja posicionado no 
+         diw .. apaga palavra mesmo que não esteja posicionado no
                 início
          dip .. apaga o parágrafo atual
          d4b .. apaga as quatro palavras anteriores
          dfx .. apaga até o próximo ``x''
          d/casa/+1 - deleta até a linha após a palavra casa
 
-Trocando a letra ‘`d`’ nos comandos acima por
-‘`c`’ de *change* “mudança” ao invés de deletar
+Trocando a letra `d` nos comandos acima por
+`c` de *change* (mudanças) ao invés de deletar
 será feita uma mudança de conteúdo. Por exemplo:
 
          ciw .............. modifica uma palavra
@@ -74,10 +74,10 @@ será feita uma mudança de conteúdo. Por exemplo:
 
 ### Copiando sem deletar
 
-O comando ‘`y`’ (*yank*) permite copiar uma
+O comando `y` (*yank*) permite copiar uma
 parte do texto para a memória sem deletar. Existe uma semelhança muito
-grande entre os comandos ‘`y`’ e os comandos
-‘`d`’, um ativa a ‘cópia’ e outro a ‘exclusão’ de conteúdo,
+grande entre os comandos `y` e os comandos
+`d`, um ativa a ‘cópia’ e outro a ‘exclusão’ de conteúdo,
 suportando ambos quantificadores:
 
          yy  .... copia a linha atual (sinônimo: Y)
@@ -93,8 +93,8 @@ suportando ambos quantificadores:
          ygg .... copia da posição atual até o início do arquivo
          yG  .... copia da posição atual até o final do arquivo
 
-Digite ‘`P`’ (p maiúsculo) para colar o texto recém copiado
-na posição onde encontra-se o cursor, ou ‘`p`’ para colar o
+Digite `P` (p maiúsculo) para colar o texto recém copiado
+na posição onde encontra-se o cursor, ou `p` para colar o
 texto na posição imediatamente após o cursor.
 
          yi" .... copia trecho entre aspas (atual - inner)
@@ -104,7 +104,7 @@ texto na posição imediatamente após o cursor.
          yit .... copia a tag agual `inner tag' útil para arquivos
                   HTML, XML, etc.
 
-### Usando a área de transferência `*Clipboard*`
+### Usando a área de transferência `Clipboard`
 
 Exemplos para o modo visual:
 
@@ -120,7 +120,7 @@ abaixo preservam a indentação[^1].
          "+y ............ copia área selecionada
 
 Para evitar erros ao colar usando `Shift-insert` use este
-comando ‘`:set paste`’.
+comando `:set paste`.
 
 ### Removendo linhas duplicadas
 
