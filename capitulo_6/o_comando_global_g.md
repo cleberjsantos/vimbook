@@ -1,5 +1,5 @@
-O comando global “g” 
------------------------------
+O comando global “g”
+--------------------
 
 Buscando um padrão e gravando em outro arquivo:
 
@@ -14,7 +14,7 @@ vejamos:
 
 Para mostrar o as linhas correspondentes a um padrão, mesmo que a
 numeração de linha não esteja habilitada use
-“:g/padrão/\#”.
+`:g/padrão/\#`.
 
 numerar linhas:
 

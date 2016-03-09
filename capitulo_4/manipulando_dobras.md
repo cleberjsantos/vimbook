@@ -11,7 +11,7 @@ Os principais comandos relativos ao uso de dobras são:
          zR ................ abre todas as dobras do arquivo atual
          zM ................ fecha todas as dobras do arquivo atual
          zc ................ fecha uma dobra
-         zC ................ fecha a dobra abaixo do cursor, 
+         zC ................ fecha a dobra abaixo do cursor,
                              recursivamente
          zfap .............. cria uma dobra para o parágrafo 'ap'
                              atual
@@ -30,7 +30,7 @@ Os principais comandos relativos ao uso de dobras são:
 
 Para abrir e fechar as dobras usando a barra de espaços coloque o trecho
 abaixo no seu arquivo de configuração do Vim (`.vimrc`) - veja o
-capítulo **12**, página **79**.
+[Como editar preferências no Vim](capitulo_12/como_editar_preferencias_no_vim.md).
 
          nnoremap <space> @=((foldclosed(line(".")) < 0) ?
                               \ 'zc' : 'zo')<CR>
