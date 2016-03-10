@@ -36,13 +36,13 @@ linhas contendo a palavra ‘padrão’.
          \S ................. significa "string"
 
 A opção acima equivale a `:g!/padrão/d`. Para ler mais sobre o comando
-“global” utilizado nesta seção veja o capítulo [6.13](capitulo_6/o_comando_global_g.md).
+“global” utilizado nesta seção veja o capítulo [O comando global "g"](capitulo_6/o_comando_global_g.md).
 
 
          :7,10copy $
 
 Da linha 7 até a linha 10 copie para o final. Veja mais sobre edição no
-modo de comando na seção “[6](capitulo_6/buscas_e_substituicoes.md)”.
+modo de comando no capítulo [Buscas e Substituições](capitulo_6/buscas_e_substituicoes.md).
 
 #### Gerando sequências
 
