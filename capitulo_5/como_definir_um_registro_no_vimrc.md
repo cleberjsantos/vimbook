@@ -2,7 +2,7 @@ Como definir um registro no `vimrc`?
 ------------------------------------
 
 Se você não sabe ainda como editar preferências no Vim leia antes o
-capítulo [Como editar preferências no Vim](/capitulo_12/como_editar_preferencias_no_vim.html).
+capítulo [Como editar preferências no Vim](../capitulo_12/como_editar_preferencias_no_vim.html).
 
 Você pode criar uma variável no vimrc assim:
 
