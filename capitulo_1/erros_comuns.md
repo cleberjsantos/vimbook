@@ -31,7 +31,7 @@ Alguns atalhos úteis…
          gv ......... repete seleção visual
 
 Para saber mais sobre repetição de comandos veja o capítulo
-[Repetição de comandos](capitulo_8/repeticao_de_comandos.md).
+[Repetição de comandos](../capitulo_8/repeticao_de_comandos.md).
 
 No Vim, cada arquivo aberto é chamado de `buffer`, ou seja, dados
 carregados na memória. Você pode acessar o mesmo *buffer*

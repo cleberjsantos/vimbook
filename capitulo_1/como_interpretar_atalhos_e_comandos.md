@@ -11,5 +11,5 @@ No arquivo de configuração do Vim, um `<Enter>` pode aparecer como:
          <cr>
 
 Para saber mais sobre como usar atalhos no Vim veja a seção
-[Mapeamentos](capitulo_12/mapeamentos.md) e para ler sobre o arquivo de configuração veja
-o capítulo [Como editar preferências no Vim](capitulo_12/como_editar_preferencias_no_vim.md).
+[Mapeamentos](../capitulo_12/mapeamentos.md) e para ler sobre o arquivo de configuração veja
+o capítulo [Como editar preferências no Vim](../capitulo_12/como_editar_preferencias_no_vim.md).
