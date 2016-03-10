@@ -16,6 +16,6 @@ em um registro
 
 O comando acima quer dizer
 
-         para o registro `a' ......  "a
-         copie ......................  `y'
-         o parágrafo atual .......... `inner paragraph'
+         para o registro `a' ........  "a
+         copie ......................  `y`
+         o parágrafo atual ..........  `inner paragraph`

@@ -14,7 +14,7 @@ este comando:
 Neste caso a linha corrente é apagada 'dd' e adicionada ao
 final do registro "a".
 
-         "ayip .. copia o parágrafo atual para o registro ``a''
+         "ayip .. copia o parágrafo atual para o registro "a"
          "a ..... registro a
          y ...... yank (copia)
          ip ..... inner paragraph (este parágrafo)
