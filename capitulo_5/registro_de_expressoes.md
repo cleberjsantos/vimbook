@@ -43,5 +43,5 @@ acima.
 
 Agora posicione o cursor no começo da linha e pressione `10@a`.
 
-Na seção [Mapeamento para Calcular Expressões](capitulo_12/mapeamento_para_calcular_expressoes.md) há mais dicas
+Na seção [Mapeamento para Calcular Expressões](../capitulo_12/mapeamento_para_calcular_expressoes.md) há mais dicas
 sobre o uso do registro de expressões cálculos matemáticos.
