@@ -9,9 +9,9 @@ Se você cometer um erro, não se preocupe! Use o comando `u`:
 
 ### Undo tree
 
-Um novo recurso muito interessante foi adicionado ao Vim “a partir da
-versão 7” é a chamada árvore do desfazer. Se você desfaz alguma coisa,
-fez uma alteração um novo `branch` ou galho, derivação de
+Um novo recurso muito interessante que foi adicionado ao Vim a partir da
+versão 7 é a chamada árvore do desfazer. Se você desfaz alguma coisa e
+faz uma alteração, um novo `branch` (galho) ou derivação de
 alteração é criado. Basicamente, os `branches` nos permitem
 acessar quaisquer alterações ocorridas no arquivo.
 

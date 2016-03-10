@@ -19,9 +19,9 @@ terminador de linha Unix:
         :set ff=unix
         :w
 
-Na seção [Como editar preferências no Vim]() página [00]()  há um código para
+Na seção [Como editar preferências no Vim](capitulo_12/como_editar_preferencias_no_vim.md) página [00]()  há um código para
 a barra de status que faz com que a mesma exiba o código do caractere
-sob o cursor na seção [Função para barra de status](). O caractere de
+sob o cursor na seção [Função para barra de status](capitulo_12/funcoes_para_barra_de_status.md). O caractere de
 final de linha do Windows/DOS pode ser inserido com a seguinte
 combinação de teclas:
 

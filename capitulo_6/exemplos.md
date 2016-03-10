@@ -18,13 +18,13 @@ Ignorando maiúsculas e minúsculas
          /\cpalavra
 
 Usando `\c` o Vim encontrará “*palavra*”,
-“*Palavraa*” ou até mesmo
+“*Palavra*” ou até mesmo
 “*PALAVRA*”. Uma dica é colocar no seu arquivo
-de configuração “vimrc” veja o capítulo [cha:Como editar preferências no
-Vim] na página .
+de configuração “vimrc” veja o capítulo
+[Como editar preferências no Vim](capitulo_12/como_editar_preferencias_no_vim.md).
 
          set ignorecase .. ignora maiúsculas e minúsculas na bucsca
-         set smartcase ... se busca contiver maiúsculas ele passa a 
+         set smartcase ... se busca contiver maiúsculas ele passa a
                            considerá-las
          set hlsearch .... mostra o que está sendo buscado em cores
          set incsearch ... ativa a busca incremental

@@ -1,8 +1,7 @@
 Buscando em um intervalo de linhas
 ----------------------------------
 
-[sec:Buscando em um intervalo de linhas] Para buscar entre as linhas 10
-e 50 por um padrão qualquer fazemos:
+Para buscar entre as linhas 10 e 50 por um padrão qualquer fazemos:
 
         /padrao\%>10l\$<50l
 

@@ -26,4 +26,4 @@ linha do seu arquivo algo assim:
 Obs: `fdm` significa *foldmethod*, e `fdl` significa
 *foldlevel*. Deve haver um espaço entre a palavra inicial
 “vim” e o começo da linha este recurso chama-se *modeline*,
-leia mais na seção “**2.20** modelines” na página **20**.
+leia mais na seção [modelines](capitulo_2/modelines.md).
