@@ -20,34 +20,31 @@ distribuição. A forma de instalação preferível depende da distribuição:
     precisa ser feito.
 
 -   Estar disponível no repositório, mas não instalado – em
-    distribuições derivadas da Debian GNU/Linux[^5], a instalação do Vim
+    distribuições derivadas da Debian GNU/Linux[^1], a instalação do Vim
     através dos repositórios é usualmente executada digitando-se
-    `apt-get install vim`[^6] em um *terminal*
+    `apt-get install vim`[^2] em um *terminal*
     (este procedimento requer privilégios de administrador e,
     tipicamente, conexão com a internet).
 
     Algumas distribuições GNU/Linux dividem o programa Vim em vários
     pacotes. Pacotes adicionais como `gvim`, `vim-enhanced`,
-    `vim-python`[^7], entre outros, representam diferentes versões do
+    `vim-python`[^3], entre outros, representam diferentes versões do
     mesmo aplicativo. O `gvim` é a versão gráfica do Vim e o
     `vim-enhanced` é uma versão do vim compilada com um suporte interno
-    ao Python[^8]. A alternativa para resolver esse problema é buscar na
+    ao Python[^4]. A alternativa para resolver esse problema é buscar na
     documentação da distribuição o que significa cada pacote.
 
 -   Não estar disponível no repositório da distribuição – cenário
     *muito* improvável, mas nas sua ocorrência o Vim pode
     ser instalado através da compilação do código-fonte; basta seguir as
-    instruções do [site
-    oficial](http://www.vim.org/download.php).
+    instruções do [site oficial](http://www.vim.org/download.php).
 
-    [^5]: Debian GNU/Linux - <http://www.debian.org/index.pt.html>
+    [^1]: Debian GNU/Linux - <http://www.debian.org/index.pt.html>
 
-    [^6]: Recomenda-se também instalar a documentação em HTML do Vim:
-          `apt-get install vim-doc`
+    [^2]: Recomenda-se também instalar a documentação em HTML do Vim: `apt-get install vim-doc`
 
-    [^7]: Para ubuntu e Debian
+    [^3]: Para ubuntu e Debian
 
-    [^8]: O Python (<http://www.python.org>) é uma linguagem de programação
-          orientada a objetos muito comum no meio profissional e acadêmico
+    [^4]: O Python (<http://www.python.org>) é uma linguagem de programação orientada a objetos muito comum no meio profissional e acadêmico
 
 
