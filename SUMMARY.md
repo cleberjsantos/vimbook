@@ -52,7 +52,7 @@
    * [Registros de buscas "/"](capitulo_5/registros_de_buscas.md)
    * [Manipulando Registros](capitulo_5/manipulando_registros.md)
    * [Listando os registros atuais](capitulo_5/listando_os_registros_atuais.md)
-   * [Listando arquivos abertos](capitulo_5/o_registro_sem_nome.md)
+   * [Listando arquivos abertos](capitulo_5/listando_arquivos_abertos.md)
    * [Dividindo a janela com o próximo arquivo da lista de *buffers*](capitulo_5/dividindo_a_janela_com_o_proximo_arquivo_da_lista_de_buffers.md)
    * [Como colocar um pedaço de texto em um registro?](capitulo_5/como_colocar_um_pedaco_de_texto_em_um_registro.md)
    * [Como criar um registro em modo visual?](capitulo_5/como_criar_um_registro_em_modo_visual.md)
