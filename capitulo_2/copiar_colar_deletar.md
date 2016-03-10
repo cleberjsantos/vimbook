@@ -126,3 +126,6 @@ comando `:set paste`.
 
          :sort u
 
+
+
+[^1]: Espaçamento entre o começo da linha e o início do texto
