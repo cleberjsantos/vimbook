@@ -16,8 +16,9 @@ estávamos editando da última vez:
 
          gi
 
-Pode-se criar um `alias` para que ao abrir o vim o
+Pode-se criar um `alias`[^1] para que ao abrir o vim o
 mesmo abra o último arquivo editado:
 `alias lvim="vim -c \"normal '0\""`. No capítulo [6](capitulo_6/buscas_e_substituicoes.md) você encontra mais dicas de edição.
 
 
+[^1]: Abreviação para um comando do GNU/Linux

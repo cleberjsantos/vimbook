@@ -1,7 +1,7 @@
 Substituindo tabulações por espaços
 -----------------------------------
 
-Se houver necessidade[^2] de trocar tabulações por espaços fazemos
+Se houver necessidade[^1] de trocar tabulações por espaços fazemos
 assim:
 
          :set tabstop=4 "tamanho da parada de tabulação
@@ -30,3 +30,5 @@ Explicando:
         g ............ global
 
 
+
+[^1]: Em códigos Python por exemplo não se pode misturar espaços e tabulações

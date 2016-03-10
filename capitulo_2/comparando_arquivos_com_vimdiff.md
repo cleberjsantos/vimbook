@@ -19,9 +19,3 @@ O comando acima irá exibir lado a lado o arquivo local chamado
 `projeto` e o arquivo remoto contido no computador de nome
 `estacao` de mesmo nome.
 
-[^1]: Espaçamento entre o começo da linha e o início do texto
-
-[^2]: Em códigos Python por exemplo não se pode misturar espaços e
-    tabulações
-
-[^3]: Abreviação para um comando do GNU/Linux
