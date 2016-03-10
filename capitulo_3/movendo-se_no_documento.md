@@ -24,9 +24,9 @@ digita-se `<Esc>` ou `Ctrl-[`. As letras `h`, `k`,
          h     l
             j
 
-ou seja, a letra ‘`k`’ é usada para subir no texto, a letra
-‘`j`’ para descer, a letra ‘`h`’ para mover-se
-para a esquerda e a letra ‘`l`’ para mover-se para a direita.
+ou seja, a letra `k` é usada para subir no texto, a letra
+`j` para descer, a letra `h` para mover-se
+para a esquerda e a letra `l` para mover-se para a direita.
 A ideia é que se consiga ir para qualquer lugar do texto sem tirar as
 mãos do teclado, sendo portanto alternativas para as setas de
 movimentação usuais do teclado. Ao invés de manter os quatro dedos sobre
@@ -35,13 +35,13 @@ da mão esquerda sobre a tecla F e o da mão direita sobre a letra J,
 sendo que seu indicador da mão direita vai alternar entre a tecla J e H
 para a movimentação.
 
-Para ir para linhas específicas ‘*em modo normal*’ digite:
+Para ir para linhas específicas ‘em modo normal’ digite:
 
          :n<Enter>  ..... vai para linha `n'
          ngg ............ vai para linha `n'
          nG ............. vai para linha `n'
 
-onde “`n`” corresponde ao número da linha. Para retornar ao modo normal
+onde `n` corresponde ao número da linha. Para retornar ao modo normal
 pressione `<Esc>` ou use `Ctrl-[` (`^[`).
 
 No vim é possível realizar diversos tipos de movimentos, também
@@ -93,8 +93,8 @@ lista abaixo aponta algumas dessas possibilidades.
 
 Para o Vim “*palavras-separadas-por-hífen*”
 são consideradas em separado, portanto se você usar, em modo normal
-“`w`” para avançar entre as palavras ele pulará uma de cada vez, no
-entanto se usar “`W`” em maiúsculo (como visto) ele pulará a
+`w` para avançar entre as palavras ele pulará uma de cada vez, no
+entanto se usar `W` em maiúsculo (como visto) ele pulará a
 “palavra-inteira” :)
 
          E .... pula para o final de palavras com hifen
