@@ -51,10 +51,10 @@ Links internos do livro devem ser descritos com o título do capitulo e não o n
 - veja o capítulo [3](capitulo_3/movendo-se_no_documento.md)
 + veja o capítulo [Movendo-se no documento](capitulo_3/movendo-se_no_documento.md)
 ```
-Além disso devem ser relativos e terminados em html:
+Além disso devem ser relativos:
 ```diff
 - veja o capítulo [Movendo-se no documento](capitulo_3/movendo-se_no_documento.md)
-+ veja o capítulo [Movendo-se no documento](../capitulo_3/movendo-se_no_documento.html)
++ veja o capítulo [Movendo-se no documento](../capitulo_3/movendo-se_no_documento.md)
 ```
 
 Outros
