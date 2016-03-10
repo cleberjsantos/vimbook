@@ -27,6 +27,30 @@ Os [capítulos](https://github.com/cassiobotaro/vimbook/tree/master/chapters) or
 
 Para auxiliar a transcrição, a última versão pdf gerada à partir do .tex está disponível para [download](https://github.com/cassiobotaro/vimbook/blob/master/vimbook-31-08-2009.pdf).
 
+Padrões de formatação
+=====================
+Highlights
+----------
+Sempre que usar a syntax de _highlight_ (``) em uma parte do texto, evite o uso de _aspas_ desnecessárias, ex:
+```diff
+- "`texto`".
++ `texto`
+```
+
+Notas de rodapé
+---------------
+As notas de rodapé devem ser preenchidas por página, ou seja, sempre que houver uma nota de rodapé, essa deverá estar na mesma página onde
+sua referência foi feita.
+
+A numeração das notas de rodapé são por página e não por capitulo.
+
+Links
+-----
+Links internos do livro devem ser descritos com o título do capitulo e não o número do capítulo ou número da página, ex:
+```diff
+- veja o capítulo [3](capitulo_3/movendo-se_no_documento.md)
++ veja o capítulo [Movendo-se no documento](capitulo_3/movendo-se_no_documento.md)
+```
 
 Outros
 ======
@@ -40,22 +64,22 @@ Dicas
 -----
 
 * Substituir padrão *LaTex* de itálico (`{\em Texto}`) pelo padrão markdown (`*Texto*`)
-```
+```vim
 :%s/{\\em \([^}]*\)}/*\1*/g
 ```
 * Substituir o padrão *LaTex* de título (`\section{Título}`) pelo título normal (`Título`)
-```
+```vim
 :%s/\\section{\([^}]*\)}/\1/g
 ```
 * Substituir o padrão *LaTeX* de subtítulo (`\subsection{SubTítulo}`) pelo padrão markdown (`### SubTítulo`)
-```
+```vim
 :%s/\\subsection{\([^}]*\)}/### \1/g
 ```
 * Substituir o padrão *LaTeX* de link (`\href{link}{texto}`) pelo padrão markdown (`[texto](link)`)
-```
+```vim
 :%s/\\href{\([^}]*\)}{\([^}]*\)}/[\2](\1)/g
 ```
 * Substituir o padrão *LaText* de fonte diferenciada (`{\tt texto}`) pelo padrão markdown de highlighting (``texto``)
-```
+```vim
 :%s/{\\tt \([^}]*\)}/`\1`/g
 ```
