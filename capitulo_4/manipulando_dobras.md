@@ -30,7 +30,7 @@ Os principais comandos relativos ao uso de dobras são:
 
 Para abrir e fechar as dobras usando a barra de espaços coloque o trecho
 abaixo no seu arquivo de configuração do Vim (`.vimrc`) - veja o
-[Como editar preferências no Vim](capitulo_12/como_editar_preferencias_no_vim.md).
+[Como editar preferências no Vim](../capitulo_12/como_editar_preferencias_no_vim.md).
 
          nnoremap <space> @=((foldclosed(line(".")) < 0) ?
                               \ 'zc' : 'zo')<CR>
