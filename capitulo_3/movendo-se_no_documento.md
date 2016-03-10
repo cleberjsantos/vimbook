@@ -139,7 +139,7 @@ Na verdade o atalho acima lhe mostrará o último ponto onde foi feita a
 atribuição àquela variável que está sob o cursor, uma mão na roda para
 os programadores de plantão! Observe na barra de status do Vim se o tipo
 de arquivo está certo. Para detalhes sobre como personalizar a
-barra de status na seção [Função para barra de status]().
+barra de status no capítulo [Função para barra de status](../capitulo_12/funcao_para_barra_de_status.md).
 
          ft=python
 
