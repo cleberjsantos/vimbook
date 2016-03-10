@@ -199,3 +199,4 @@
    * [O Plugin Project](capitulo_15/o_plugin_project.md)
    * [O Plugin Pydiction](capitulo_15/o_plugin_pydiction.md)
    * [O Plugin FindMate](capitulo_15/o_plugin_findmate.md)
+* [Referências](referencias/referencias.md)

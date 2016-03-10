@@ -2,7 +2,6 @@ Referências
 ===========
 
 -   <http://www.vivaolinux.com.br/artigos/impressora.php?codigo=2914>
-    VIM avançado (parte 1)]
 
 -   <http://www.rayninfo.co.uk/vimtips.html>
 
@@ -17,5 +16,4 @@ Referências
 -   <http://vivaotux.blogspot.com/search/label/vim>
 
 -   <http://www.tug.dk/FontCatalogue/seriffonts.html>
-
 
