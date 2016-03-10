@@ -17,5 +17,4 @@ Para trocar a visualização do Buffer atual pode-se usar:
          :b2 ........... Altera para o buffer cujo a chave é 2
 
 Para os que preferem atalhos para alternar entre os buffers, é possível
-utilizar ‘Ctrl-6’ que tem o mesmo funcionamento do comando
-‘`:b#`’
+utilizar ‘Ctrl-6’ que tem o mesmo funcionamento do comando `:b#`

@@ -1,10 +1,10 @@
 Modos de divisão da janela
 --------------------------
 
-Como foi dito acima, é possível visualizar mais de um buffer ao mesmo
+Como foi dito anteriormente, é possível visualizar mais de um buffer ao mesmo
 tempo, e isso pode ser feito utilizando *tab* ou *split*.
 
-### Utilizando abas *tab*
+### Utilizando abas (tab)
 
 A partir do Vim 7 foi disponibilizada a função de abrir arquivos em
 abas, portanto é possível ter vários buffers abertos em abas distintas e
