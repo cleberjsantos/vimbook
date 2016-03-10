@@ -11,10 +11,10 @@ lugar desejado. Portanto não precisa-se recorrer a nenhuma calculadora
 para fazer cálculos. Pode-se fazer uso do “Registro de Expressões”
 dentro de macros, ou seja, ao gravar ações pode-se fazer uso deste
 recurso, aumentando assim sua complexidade e poder! Para ler sobre
-“macros” acesse a seção [8.3](capitulo_8/gravando_comandos.md). Para saber mais
-sobre o “registro de expressões” [5.6](capitulo_5/registro_de_expressoes.md).
+“macros” veja o capítulo [Gravando Comandos](../capitulo_8/gravando_comandos.md).
+E veja também o capítulo [Registro de expressões](../capitulo_5/registro_de_expressoes.md).
 
-Na seção [9.9](capitulo_9/calculadora_cientifica_com_o_vim.md) “Calculadora Científica com o Vim” há uma descrição sobre como fazer cálculos com maior
+Na capítulo [Calculadora Científica com Vim](../capitulo_9/calculadora_cientifica_com_o_vim.md) há uma descrição sobre como fazer cálculos com maior
 precisão e complexidade.
 
 Se a intenção for apenas exibir um calculo na barra de comandos é
