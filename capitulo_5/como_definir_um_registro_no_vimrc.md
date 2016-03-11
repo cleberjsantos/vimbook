@@ -13,8 +13,8 @@ Pode também dizer ao Vim algo como...
 
          :let @d=strftime("c")<Enter>
 
-Neste caso estou dizendo a ele que guarde na variável 'd'
-at d, o valor da data do sistema 'strftime("c")' ou então
+Neste caso estou dizendo a ele que guarde na variável 'd',
+o valor da data do sistema `strftime("c")` ou então
 cole isto no vimrc:
 
          let @d=strftime("c")<cr>
@@ -24,8 +24,8 @@ vimrc é que uma vez no vimrc o registro em
 questão estará sempre disponível, observe também as sutis diferenças, um
 Enter inserido manualmente é apenas uma indicação de uma
 ação que você fará pressionando a tecla especificada, já o comando
-mapeado vira "`<cr>`", veja ainda que no vimrc os dois
-pontos "`:`" somem.
+mapeado vira `<cr>`, veja ainda que no vimrc os dois
+pontos `:` somem.
 
 Pode mapear tudo isto
 
@@ -37,11 +37,9 @@ As atribuições acima correspondem a:
 
 1.  Guarda a data na variável 'd'
 
-2.  Mapeamento para o modo de inserção "imap" digite
-    ,d
+2.  Mapeamento para o modo de inserção "imap" digite ,d
 
-3.  Mapeamento para o modo normal "nmap" digite
-    ,d
+3.  Mapeamento para o modo normal "nmap" digite ,d
 
 E digitar ,d normalmente
 

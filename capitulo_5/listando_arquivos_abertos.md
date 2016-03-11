@@ -21,5 +21,4 @@ acesso o próximo assim:
 
          :wn
 
-O comando acima diz $\rightarrow$ 'w gravar' $\rightarrow$
-'n próximo'
+O comando acima diz -> 'w gravar' -> 'n próximo'

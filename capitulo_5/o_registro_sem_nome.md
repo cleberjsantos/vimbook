@@ -5,7 +5,7 @@ Armazena o conteúdo de ações como:
 
          d ....... deleção
          s ....... substituição
-         c ....... modificação `change'
+         c ....... modificação (change)
          x ....... apaga um caractere
          yy ...... copia uma linha inteira
 

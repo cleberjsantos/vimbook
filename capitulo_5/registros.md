@@ -9,11 +9,11 @@ múltipla) etc. Vamos aos detalhes.
 
 -   O registro sem nome ""
 
--   10 registros nomeados de "9"
+-   10 registros nomeados de "0" a "9"
 
 -   O registro de pequenas deleções "-
 
--   26 registros nomeados de "z" ou de "Z"
+-   26 registros nomeados de "a" a "z" ou de "A" a "Z"
 
 -   4 registros somente leitura
 

@@ -9,4 +9,4 @@ pressione a letra `j` até chegar ao ponto desejado, agora faça
 
          "ay
 
-pressione `v` para sair do modo visual.
+pressione `Esc` para sair do modo visual.
