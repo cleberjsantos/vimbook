@@ -2,7 +2,7 @@
 
 O Vim possui um modo chamado “*very magic*” para uso em
 expressões regulares que evita o uso excessivo de escapes, alternativas
-etc. Usando apenas uma opção: veja “`:h /\v`”.
+etc. Usando apenas uma opção: veja `:h /\v`.
 
 Em um trecho com dígitos + texto + dígitos no qual se deseja manter só
 as letras.
@@ -15,7 +15,7 @@ Sem a opção “*very magic*” faríamos:
 
          :%s/\d\{5\}\(\D\+\)\d\{3\}/\1/
 
-Já com a opção “*very magic*” “`\v`” usa-se bem menos
+Já com a opção “*very magic*” `\v` usa-se bem menos
 escapes:
 
          :%s/\v\d{5}(\D+)\d{3}/\1/
@@ -27,13 +27,13 @@ escapes:
          / ......... inicia padrão de busca
          \v ........ use very magic mode
          \d ........ dígitos
-         {5} ....... 5 vezes 
+         {5} ....... 5 vezes
          ( ........ inicia um grupo
          \D ........ seguido de não dígitos
-         )  ........ fecha um grupo     
+         )  ........ fecha um grupo
          + ......... uma ou mais vezes
          \d ........ novamente dígitos
-         {3} ....... três vezes 
+         {3} ....... três vezes
          / ......... inicio da substituição
          \1 ........ referencia o grupo 1
 
@@ -97,20 +97,19 @@ substituição.
 
 Para aprender mais sobre Expressões Regulares leia:
 
--   [Guia sobre Espressões
-    Regulares](http://guia-er.sourceforge.net)
+-   [Guia sobre Espressões Regulares](http://guia-er.sourceforge.net)
 
 -   :help regex
 
 -   :help pattern
 
 Uma forma rápida para encontrar a próxima ocorrência de uma palavra sob
-o cursor é teclar ‘`*`’. Para encontrar uma ocorrência anterior da
+o cursor é teclar `*`. Para encontrar uma ocorrência anterior da
 palavra sob o cursor, existe o `#` (em ambos os casos o cursor deve
 estar posicionado sobre a palavra que deseja procurar). As duas opções
 citadas localizam apenas se a palavra corresponder totalmente ao padrão
 sob o cursor, pode-se bucar por trechos de palavras que façam parte de
-palavras maiores usando-se ‘`g*`’. Pode-se ainda exibir “dentro do
+palavras maiores usando-se `g*`. Pode-se ainda exibir “dentro do
 contexto” todas as ocorrências de uma palavra sob o cursor usando-se o
 seguinte atalho em modo normal:
 

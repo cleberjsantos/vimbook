@@ -1,7 +1,7 @@
 Inserindo linha antes e depois
 ---------------------------------------
 
-Suponha que se queira um comando, considere “`,t`”, que faça com que a
+Suponha que se queira um comando, considere `,t`, que faça com que a
 linha indentada corrente passe a ter uma linha em branco antes e depois;
 isto pode ser obtido pelo seguinte mapeamento:
 

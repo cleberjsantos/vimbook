@@ -21,7 +21,7 @@ Usando `\c` o Vim encontrará “*palavra*”,
 “*Palavra*” ou até mesmo
 “*PALAVRA*”. Uma dica é colocar no seu arquivo
 de configuração “vimrc” veja o capítulo
-[Como editar preferências no Vim](capitulo_12/como_editar_preferencias_no_vim.md).
+[Como editar preferências no Vim](../capitulo_12/como_editar_preferencias_no_vim.md).
 
          set ignorecase .. ignora maiúsculas e minúsculas na bucsca
          set smartcase ... se busca contiver maiúsculas ele passa a
