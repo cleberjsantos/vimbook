@@ -1,5 +1,5 @@
-File Explorer  {#File Explorer }
---------------
+File Explorer
+-------------
 
 Para abrir o gerenciador de arquivos do Vim use:
 
@@ -22,4 +22,4 @@ Explorer.
 Ao editar um arquivo no qual há referência a um outro arquivo, por
 exemplo: ‘/etc/hosts’, pode-se usar o atalho ‘Ctrl-wf’ para abri-lo em nova janela, ou ‘gf’ para abri-lo
 na janela atual. Mas é importante posicionar o cursor sobre o nome do
-arquivo. Veja também mapeamentos na seção [Mapeamentos] página .
+arquivo. Veja também mapeamentos na seção [Mapeamentos](../capitulo_12/mapeamentos.md).
