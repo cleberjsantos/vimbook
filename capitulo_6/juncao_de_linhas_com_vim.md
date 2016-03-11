@@ -1,8 +1,7 @@
 Junção de linhas com Vim
 ------------------------
 
-Fonte: [dicas-l da
-unicamp](http://www.dicas-l.com.br/dicas-l/20081228.php)
+Fonte: [dicas-l da unicamp](http://www.dicas-l.com.br/dicas-l/20081228.php)
 Colaboração: Rubens Queiroz de Almeida
 
 Recentemente precisei combinar, em um arquivo, duas linhas consecutivas.
@@ -30,4 +29,4 @@ Explicando:
          ^ ................ indica começo de linha
          Matrícula ........ palavra a ser buscada
          s ................ inicia substituição
-         /\n/ - / ......... troca quebra de linha `\n', por `-'
+         /\n/ - / ......... troca quebra de linha `\n`, por `-`
