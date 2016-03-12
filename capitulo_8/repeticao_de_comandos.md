@@ -24,7 +24,7 @@ Veja, passo a passo, o que aconteceu:
 
 Antes de entrar em modo de inserção usamos um quantificador
 
-         `80'
+         `80`
 
 depois iniciamos o modo de inserção
 
@@ -50,7 +50,3 @@ deveríamos então fazer assim:
          isto é um teste <Enter>
          <Esc> .. voltar ao modo normal
 
-
-
-
-        ^r^w
