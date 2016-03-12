@@ -25,7 +25,7 @@ Os [capítulos](https://github.com/cassiobotaro/vimbook/tree/master/chapters) or
 
 *Por favor remova as tags span encontradas.*
 
-Para auxiliar a transcrição, a última versão pdf gerada à partir do .tex está disponível para [download](https://github.com/cassiobotaro/vimbook/blob/master/vimbook-31-08-2009.pdf).
+Para auxiliar a transcrição, a última versão pdf gerada à partir do .tex está disponível para [download](https://github.com/cassiobotaro/vimbook/blob/master/vimbook-livro-original/vimbook-31-08-2009.pdf).
 
 Padrões de formatação
 =====================
