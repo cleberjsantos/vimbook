@@ -1,9 +1,9 @@
-Repetindo a digitação de uma linha 
+Repetindo a digitação de uma linha
 -----------------------------------
 
          modo de inserção
-         Ctrl-y .......... repete a linha acima 
-         Ctrl-e .......... repetira linha abaixo 
+         Ctrl-y .......... repete a linha acima
+         Ctrl-e .......... repete a linha abaixo
          Ctrl-x Ctrl-l ... repete linhas completas
 
 O atalho **Ctrl-x Ctrl-l** só funcionará para uma linha
