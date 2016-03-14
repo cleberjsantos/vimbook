@@ -17,9 +17,8 @@ A instalação envolve três passos, são eles:
 
 #### Obtenção do dicionário
 
-O dicionário pode ser obtido no [site do
-br.office.org](http://www.broffice.org/verortografico/baixar) @DicionarioBroffice.
-O arquivo baixado encontra-se compactado no formato Zip,
+O dicionário pode ser obtido no [site do libreoffice](https://pt-br.libreoffice.org/projetos/vero#baixarvero).
+O arquivo baixado encontra-se compactado no formato oxt,
 bastando portanto descompactá-lo com qualquer utilitário compatível com
 este formato, por exemplo, o comando unzip.
 
@@ -61,11 +60,6 @@ runtimepath, que pode ser inspecionada através de:
 subdiretório spell/ em qualquer um dos caminhos listados
 através do comando mostrado.
 
-[^1]: Eventualmente, dependendo da versão do pacote de correção
-    ortográfica, os arquivos de dicionário podem ser extraídos no
-    subdiretório dictionaries ou outro qualquer.
+[^1]: Eventualmente, dependendo da versão do pacote de correção ortográfica, os arquivos de dicionário podem ser extraídos no subdiretório dictionaries ou outro qualquer.
 
-[^2]: O formato interno de dicionário do Vim assegura melhor desempenho,
-    em termos de agilidade e consumo de memória, quando a verificação
-    ortográfica do editor encontra-se em operação.
-
+[^2]: O formato interno de dicionário do Vim assegura melhor desempenho, em termos de agilidade e consumo de memória, quando a verificação ortográfica do editor encontra-se em operação.

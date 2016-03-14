@@ -5,9 +5,7 @@ habilitação da verificação ortográfica sempre quando desejada. Seria
 conveniente se o Vim habilitasse automaticamente a verificação para
 aqueles tipos de arquivos que comumente fazem uso da verificação
 ortográfica, como por exemplo arquivos “texto”. Isto é possível
-editando-se o arquivo de configuração do Vim .vimrc (veja
-Cap. [cha:Como editar preferências no Vim]) e incluindo as seguintes
-linhas:
+editando-se o arquivo de configuração do Vim .vimrc(veja [Como Editar Preferências no Vim](capitulo_12/como_editar_preferencias_no_vim.md)) e incluindo as seguintes linhas:
 
          autocmd Filetype text setl spell spl=pt
          autocmd BufNewFile,BufRead *.txt setl spell spl=pt
