@@ -15,3 +15,5 @@ edição corrente, de modo a permitir que o usuário possa restaurá-la
 quando desejar. Sessões são bastante úteis, por exemplo, para se
 alternar entre diferentes projetos, carregando-se rapidamente os
 arquivos e definições relativas a cada projeto.
+
+[^1]: Algumas informações, no entanto, são automaticamente armazenadas no arquivo viminfo; veja :h viminfo
