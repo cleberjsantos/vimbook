@@ -1,4 +1,4 @@
-`Viminfo` {#sec:Viminfo}
+Viminfo
 ---------
 
 Se o Vim for fechado e iniciado novamente, normalmente perderá uma
@@ -71,6 +71,3 @@ vazio, as informações novas são combinadas com as existentes. A opção
 ‘viminfo’ é uma string contendo informações sobre o que
 deve ser armazenado, e contém limites de o quanto vai ser armazenado
 para cada item.
-
-[^1]: Algumas informações, no entanto, são automaticamente armazenadas
-    no arquivo viminfo; veja :h viminfo
