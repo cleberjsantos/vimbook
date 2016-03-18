@@ -1,6 +1,6 @@
 ### Uma função para inserir cabeçalho de script 
 
-para chamar a função basta pressionar ‘`,sh`’ em modo normal
+para chamar a função basta pressionar `,sh` em modo normal
 
          " Cria um cabeçalho para scripts bash
          fun! InsertHeadBash()
