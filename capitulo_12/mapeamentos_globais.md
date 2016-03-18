@@ -1,4 +1,4 @@
-### Mapeamentos globais 
+### Mapeamentos globais
 
 Podemos fazer mapeamentos globais ou que funcionam em apenas um modo:
 
@@ -6,8 +6,8 @@ Podemos fazer mapeamentos globais ou que funcionam em apenas um modo:
          nmap - apenas no modo Normal
          imap - apenas no modo de Inserção
 
-Mover linhas com *Ctrl-$\downarrow$* ou
-*Ctrl-$\uparrow$*:
+Mover linhas com *Ctrl-Seta Para Baixo* ou
+*Ctrl-Seta Para Cima*:
 
          " tem que estar em modo normal!
          nmap <C-Down> ddp

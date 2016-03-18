@@ -1,4 +1,4 @@
-Outros mapeamentos 
+Outros mapeamentos
 ------------------
 
 Destaca espaços e tabulações redundantes:
@@ -34,7 +34,7 @@ substituição!
          "Abre o vim explorer
          map <F6> <Esc>:vne .<cr><bar>:vertical resize -30<cr><bar>:set nonu<cr>
 
-Podemos usar “Expressões Regulares[^2]” em buscas do Vim veja um exemplo
+Podemos usar “Expressões Regulares[^1]” em buscas do Vim veja um exemplo
 para retirar todas as tags HTML
 
          "mapeamento para retirar tags HTML com Ctrl-Alt-t
@@ -44,7 +44,6 @@ para retirar todas as tags HTML
          " join lines  -- Junta as linhas com Shift-F2
          nmap <S-F2> A<Del><Space>
 
-Para mais detalhes sobre buscas acesse o capítulo “[cha:Buscas e
-substituições] na página ”.
+Para mais detalhes sobre buscas acesse o capítulo [Buscas e substituições](../capitulo_6/buscas_e_substituicoes.md).
 
-[^2]: <http://guia-er.sourceforge.net>
+[^1]: <http://guia-er.sourceforge.net>

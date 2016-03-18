@@ -1,4 +1,4 @@
-### Função para gerar backup 
+### Função para gerar backup
 
 A função abaixo é útil para ser usada quando você vai editar um arquivo
 gerando modificações significativas, assim você poderá restaurar o
@@ -12,7 +12,7 @@ backup se necessário
          endfun
          nnoremap <Leader>ba :call WriteBackup()<CR>
 
-O atalho “*\<leader\>*” em geral é a barra invertida
-“$\backslash$”, na dúvida “*:help \<leader\>*”.
+O atalho “*<leader>*” em geral é a barra invertida
+`\`, na dúvida “*:help <leader>*”.
 
 
