@@ -56,6 +56,15 @@ Além disso devem ser relativos:
 - veja o capítulo [Movendo-se no documento](capitulo_3/movendo-se_no_documento.md)
 + veja o capítulo [Movendo-se no documento](../capitulo_3/movendo-se_no_documento.md)
 ```
+Para testar se o link está correto, utilize os comandos `<c-w>f` ou `gf` do Vim.
+
+Representação de Setas
+----------------------
+No caso de comandos/atalhos que utilizem as setas do teclado, a representação deverá ser baseada nas setas UTF-8:
+```
+⬆⬇⬅➡
+```
+Por exemplo **Ctrl-⬆**, **Alt-➡**, etc.
 
 Outros
 ======
