@@ -1,4 +1,4 @@
-### Rolar outra janela 
+### Rolar outra janela
 
 Se você dividir janelas tipo
 
@@ -18,6 +18,6 @@ pode colocar esta função no seu `.vimrc`
          nmap <silent> <M-Down> :call ScrollOtherWindow(``n'')<CR>
          nmap <silent> <M-Up> :call ScrollOtherWindow(``p'')<CR>
 
-Esta função é acionada com o atalho *Alt-*:arrow_up: e
-*Alt-*:arrow_down:.
+Esta função é acionada com o atalho *Alt-Seta para Cima* e
+*Alt-Seta para Baixo*.
 

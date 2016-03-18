@@ -1,4 +1,4 @@
-Mantendo apenas um Gvim aberto 
+Mantendo apenas um Gvim aberto
 ------------------------------
 
 Essa dica destina-se apenas à versão do Vim que roda no ambiente
@@ -7,7 +7,7 @@ funcionam nesse ambiente. A meta é criar um comando que vai abrir os
 arquivos indicados em abas novas sempre na janela já existente.
 
 Para isso deve-se definir um **script** que esteja no seu
-**path**[^3] do sistema (e que possa ser executado de alguma
+**path**[^1] do sistema (e que possa ser executado de alguma
 forma por programas do tipo **launcher** no modo gráfico) que
 vai ser utilizado sempre que quisermos abrir nossos arquivos dessa
 maneira. Para efeito do exemplo, o nome do arquivo será
@@ -43,8 +43,7 @@ corrente do Gvim, em uma nova aba, por exemplo:
 
          tvim .vimrc
 
-Fonte: [Site do Eustáquio
-Rangel](http://eustaquiorangel.com/posts/477) 
+Fonte: [Site do Eustáquio Rangel](http://eustaquiorangel.com/posts/477) 
 
 
-[^3]: Diretórios nos quais o sistema busca pelos comandos
+[^1]: Diretórios nos quais o sistema busca pelos comandos

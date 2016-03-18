@@ -1,7 +1,7 @@
 Como Editar Preferências no Vim
 ===============================
 
-O arquivo de preferências do Vim é nomeado ****vimrc*, um
+O arquivo de preferências do Vim é nomeado **vimrc**, um
 arquivo oculto que normalmente encontra-se no diretório de trabalho
 (*home*) do usuário:
 

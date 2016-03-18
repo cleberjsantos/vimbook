@@ -14,8 +14,8 @@ mesmo
             nmap <F12> :<C-u>source ~/.vimrc <BAR> echo "Vimrc recarregado!"<CR>
          endif
 
-Agora basta pressionar “`<F12>`” em modo normal e as alterações passam a
-valer instantaneamente, e para chamar o ‘`vimrc`’ basta usar.
+Agora basta pressionar `<F12>` em modo normal e as alterações passam a
+valer instantaneamente, e para chamar o `vimrc` basta usar.
 
          ,v
 
@@ -41,7 +41,7 @@ Veja este outro mapeamento:
 
 Permite habilitar ou desabilitar números de linha do arquivo corrente. A
 exclamação ao final torna o comando booleano, ou seja, se a numeração
-estiver ativa será desabilitada, caso contrário será ativada. O “`<cr>`”
+estiver ativa será desabilitada, caso contrário será ativada. O `<cr>`
 ao final representa um *Enter*.
 
 

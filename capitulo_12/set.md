@@ -1,5 +1,5 @@
-**Set** 
------
+Set
+---
 
 Os comandos *set*, responsáveis por atribuir valores à
 variáveis, podem ser colocados no `.vimrc`:
@@ -9,6 +9,7 @@ variáveis, podem ser colocados no `.vimrc`:
 ou digitados como comandos:
 
          :set nu
+
 
     set number ............... "mostra numeração de linhas
     set nu ................... "simplificação de `number'

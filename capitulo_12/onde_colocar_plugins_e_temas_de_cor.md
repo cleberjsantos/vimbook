@@ -1,7 +1,7 @@
 Onde colocar **plugins** e temas de cor
 -----------------------------------
 
-No Windows deve haver uma pasta chamada ‘*vimfiles*’ (caso
+No Windows deve haver uma pasta chamada `vimfiles` (caso
 não exista deve-se criá-la), que fica em:
 
          c:\documents and settings\usuario\vimfiles
@@ -25,6 +25,6 @@ usualmente as seguintes pastas:
             +--plugin
 
 Os **plugins**, como se pode deduzir, devem ser colocados no
-diretório denominado *plugin*. Na seção Plugins [Plugins]() estão descritos alguns **plugins** para o Vim.
+diretório denominado *plugin*. Na seção [Plugins](../capitulo_15/plugins.md) estão descritos alguns **plugins** para o Vim.
 
 

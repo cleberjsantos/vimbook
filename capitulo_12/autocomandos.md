@@ -1,5 +1,5 @@
-Autocomandos  
--------------
+Autocomandos
+------------
 
 Autocomandos habilitam comandos automáticos para situações específicas.
 Para executar determinada ação ao iniciar um novo arquivo o autocomando
@@ -24,12 +24,12 @@ Para arquivos do tipo texto ‘*.txt*’ use um arquivo de
 
 O autocomando abaixo coloca um cabeçalho para **scripts**
 *bash* caso a linha 1 esteja vazia, observe que os arquivos
-em questão tem que ter a extensão ‘*.sh*’.
+em questão tem que ter a extensão *.sh*.
 
          au BufNewFile,BufRead *.sh if getline(1) == "" | normal ,sh
 
 Para configurar o vim de modo que o diretório corrente fique no
-***path*** coloque este código no ‘`vimrc`’.
+**path** coloque este código no `vimrc`.
 
          "fonte: wikia - wiki sobre o vim
          if exists('+autochdir')

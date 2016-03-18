@@ -1,8 +1,8 @@
-Como adicionar o Python ao **path** do Vim? 
-------------------------------------------------------
+Como adicionar o Python ao **path** do Vim?
+-------------------------------------------
 
 Coloque o seguinte
-[script](http://vim.wikia.com/wiki/Automatically_add_Python_paths_to_Vim_path) @PythonPath
+[script](http://vim.wikia.com/wiki/Automatically_add_Python_paths_to_Vim_path)
 em:
 
          * ~/.vim/after/ftplugin/python.vim    (on Unix systems)
@@ -19,6 +19,6 @@ em:
                  vim.command(r``s'' % (p.replace(`` '', r`` '')))
          EOF
 
-Isto lhe permite usar ‘*gf*’ ou *Ctrl-w Ctrl-F*
+Isto lhe permite usar *gf* ou *Ctrl-w Ctrl-F*
 para abrir um arquivo sob o cursor
 

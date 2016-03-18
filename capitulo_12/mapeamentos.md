@@ -1,4 +1,4 @@
-Mapeamentos 
+Mapeamentos
 -----------
 
 Mapeamentos permitem criar atalhos de teclas para quase tudo. Tudo
@@ -8,6 +8,7 @@ que para criar mapeamentos, precisamos conhecer a maneira de representar
 as teclas e combinações. Alguns exemplos:
 
          tecla ....... tecla mapeada
+
          <c-x> ....... Ctrl-x
          <left> ...... seta para a esquerda
          <right> ..... seta para a direita
@@ -22,7 +23,7 @@ as teclas e combinações. Alguns exemplos:
          <sfile> ..... conteúdo do arquivo sob o cursor
          <left> ...... salta um caractere para esquerda
          <up> ........ equivale clicar em `seta acima'
-         <m-f4> ...... a tecla alt -> m  mais a tecla f4
+         <m-f4> ...... a tecla alt (m) mais a tecla f4
          <c-f> ....... Ctrl-f
          <bs> ........ backspace
          <space> ..... espaço
@@ -38,8 +39,8 @@ qualquer em modo de inserção ou comando, veja:
          imap <F2> Nome de uma pessoa
 
 A única diferença nos mapeamentos acima é que o mapeamento para modo de
-inserção começa com ‘`i`’, assim como para o modo “comando” ‘`:`’ começa
-com ‘`c`’ no caso ‘`cmap`’. O comando ‘`:echo`’ pode ser abreviado
-assim: ‘`:ec`’.
+inserção começa com `i`, assim como para o modo “comando” `:` começa
+com `c` no caso `cmap`. O comando `:echo` pode ser abreviado
+assim: `:ec`.
 
 

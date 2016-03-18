@@ -1,4 +1,4 @@
-Exemplo de menu 
+Exemplo de menu
 ---------------
 
          " cores
@@ -18,7 +18,7 @@ Exemplo de menu
 O comando “*:update*” Atualiza o menu recém modificado.
 Quando o comando “*:amenu*” É usado sem nenhum argumento o
 Vim mostra os menus definidos atualmente. Para listar todas as opções de
-menu para ‘`Plugin`’ por exemplo digita-se no modo de comandos
+menu para `Plugin` por exemplo digita-se no modo de comandos
 “*:amenu Plugin*”.
 
 #### Ocultando as barras de ferramentas e menu
@@ -26,6 +26,6 @@ menu para ‘`Plugin`’ por exemplo digita-se no modo de comandos
         :set guioptions-=m  ........ oculta menus
         :set guioptions-=T  ........ oculta icones
 
-        obs: para exibir novamente repita o comando 
+        obs: para exibir novamente repita o comando
         substituindo o sinal de menos por mais.
 
