@@ -8,7 +8,7 @@ fiz:
          baixei o pacote [recode]
          # apt-get install recode
 
-para recodificar caracteres de ‘`utf-8`’ para ‘`iso`’ faça:
+para recodificar caracteres de `utf-8` para `iso` faça:
 
          recode -d u8..l1 arquivo
 
