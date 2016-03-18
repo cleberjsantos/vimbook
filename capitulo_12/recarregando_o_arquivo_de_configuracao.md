@@ -1,4 +1,4 @@
-### Recarregando o arquivo de configuração {#sec:Recarregando o arquivo de configuração}
+### Recarregando o arquivo de configuração
 
 Cada alteração no arquivo de configuração do Vim só terá efeito na
 próxima vez que você abrir o Vim a menos que você coloque isto dentro do
