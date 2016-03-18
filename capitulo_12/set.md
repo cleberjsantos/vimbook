@@ -55,7 +55,7 @@ ou digitados como comandos:
 
 Se ao iniciar o vim obtivermos mensagens de erros e houver dúvida se o
 erro é no vim ou em sua configuração, pode-se inicia-lo sem que o mesmo
-carregue o arquivo ‘`.vimrc`’.
+carregue o arquivo `.vimrc`.
 
         :vim -u NONE
 
