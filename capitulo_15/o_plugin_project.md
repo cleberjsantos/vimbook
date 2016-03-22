@@ -17,9 +17,9 @@ e ao clicar em um dos arquivos do projeto o mesmo é aberto instantaneamente.
 Após digitar o atalho de criação do projeto aparecerá uma janela
 para designar um nome para o mesmo, em seguida digita-se o caminho para
 o diretório do projeto, após isto digita-se `.` (ponto) como parâmetro,
-cria-se um filtro como '`*.py`'.
+cria-se um filtro como `*.py`.
 Para criar uma entrada (acesso ao plugin) no menu do Gvim colocamos
-a seguinte linha no '`vimrc`'.
+a seguinte linha no `vimrc`.
 
 
      amenu &Projetos.togle <Plug>ToggleProject<cr>
@@ -33,6 +33,6 @@ Pode-se definir um projeto manualmente assim:
      }
 
 
-Ao recarregar o Vim pode-se abrir o *Plugin* "`:Projetc`" e
+Ao recarregar o Vim pode-se abrir o *Plugin* `:Projetc` e
 pressionar o atalho `\r` para que o mesmo gere um índice dos arquivos
 contidos no caminho indicado.
