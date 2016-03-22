@@ -1,7 +1,7 @@
 Use marcas
 ----------
 
-veja a seção [Usando marcas](capitulo_3/usando_marcas.md).
+veja a seção [Usando marcas](../capitulo_3/usando_marcas.md).
 
          ma ..... em modo normal cria uma marca `a'
          'a ..... move o cursor até a marca `a'

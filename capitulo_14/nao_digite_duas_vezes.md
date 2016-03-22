@@ -1,12 +1,12 @@
 Não digite duas vezes
 ---------------------
 
--   O Vim complementa com ‘tab’. Veja mais na seção[Complementação com "tab"](capitulo_12/complementacao_com_tab.md)
+-   O Vim complementa com ‘tab’. Veja mais no capítulo [complementação com "tab"](../capitulo_12/complementacao_com_tab.md)
 
--   Use macros. Detalhes na seção [Gravando comandos](capitulo_8/gravando_comandos.md).
+-   Use macros. Detalhes no capítulo [gravando comandos](../capitulo_8/gravando_comandos.md).
 
--   Use abreviações coloque abreviações como abaixo em seu `~/.vimrc`.
-    Veja mais na seção [Abreviações](capitulo_12/abreviacoes.md).
+-   Use abreviações. Coloque abreviações como abaixo em seu `~/.vimrc`.
+    Veja mais no capítulo [abreviações](../capitulo_12/abreviacoes.md).
 
 -   As abreviações fazem o mesmo que auto-correção e auto-texto em
     outros editores

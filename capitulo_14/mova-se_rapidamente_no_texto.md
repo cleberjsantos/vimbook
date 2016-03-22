@@ -1,7 +1,7 @@
 Mova-se rapidamente no texto
 ----------------------------
 
-O capítulo [3](capitulo_3/movendo-se_no_documento.md), “Movendo-se no Documento”,
+O capítulo [Movendo-se no Documento](../capitulo_3/movendo-se_no_documento.md),
 mostra uma série de comandos para agilizar a navegação no texto.
 Memorizando estes comandos ganha-se tempo considerável, um exemplo
 simples em que o usuário está na linha 345 de um arquivo decide ver o
