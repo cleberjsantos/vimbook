@@ -15,8 +15,8 @@ Primeiro precisamos ter o arquivos de tags. Para tal, usamos o comando:
 Normalmente o parâmetro `<arquivos>` pode ser uma expressão regular
 do tipo `*.[ch]` e afins. Depois de obter o arquivo de tags, você já pode
 sair usando os atalhos do plugin para navegar pelo código fonte.
-Com o cursor em cima de um identificador, usando o atalho '`ctrl+]`'
-o cursor pula diretamente para a sua declaração. O atalho '`ctrl+o`'
+Com o cursor em cima de um identificador, usando o atalho `ctrl+]`
+o cursor pula diretamente para a sua declaração. O atalho `ctrl+o`
 volta o cursor para a posição inicial.
 
 Quando navegando por um código fonte muito extenso com vários diretórios,
