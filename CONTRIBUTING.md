@@ -29,6 +29,7 @@ Para auxiliar a transcrição, a última versão pdf gerada à partir do .tex es
 
 Padrões de formatação
 =====================
+
 Highlights
 ----------
 Sempre que usar a syntax de _highlight_ (``) em uma parte do texto, evite o uso de _aspas_ desnecessárias, ex:
@@ -65,6 +66,17 @@ No caso de comandos/atalhos que utilizem as setas do teclado, a representação 
 ⬆⬇⬅➡
 ```
 Por exemplo **Ctrl-⬆**, **Alt-➡**, etc.
+
+Blocos de highlight
+-------------------
+Utilizar blocos com highlight para destaque da sintaxe.
+```diff
+-         for i in range(10)
++ ```python
++ for i in range(10)
++ ```
+
+```
 
 Outros
 ======
