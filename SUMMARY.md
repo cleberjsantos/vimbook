@@ -35,7 +35,6 @@
 * [Movendo-se no documento](capitulo_3/movendo-se_no_documento.md)
    * [Paginando](capitulo_3/paginando.md)
    * [Usando marcas](capitulo_3/usando_marcas.md)
-    - [Marcas globais](capitulo_3/marcas_globais.md)
 * [Folders](capitulo_4/folders.md)
    * [Métodos de dobras](capitulo_4/metodos_de_dobras.md)
    * [Manipulando dobras](capitulo_4/manipulando_dobras.md)
