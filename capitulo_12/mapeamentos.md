@@ -101,8 +101,6 @@ mapeamento qualquer, no caso abaixo usando a combinação de teclas
 É um mapeamento para o modo normal que faz com que a combinação de
 teclas `Shift-F11` limpe o “registro” de buscas
 
-[^1]: hls é uma abreviação de hightlight search
-
 ### Destacar palavra sob o cursor
 
          nmap <s-f> :let @/=">"<CR>
@@ -199,3 +197,5 @@ Salvando com uma tecla de função:
          " Caso queira confirmação coloque uma letra ``c'' no final da
          " linha acima:
          " (...) \3/gc<CR>
+
+[^1]: hls é uma abreviação de hightlight search
