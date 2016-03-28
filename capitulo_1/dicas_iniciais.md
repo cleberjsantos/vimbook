@@ -8,9 +8,9 @@ se já sabe o que está sendo passado. Contudo dicas e sugestões serão bem
 vindas!
 
 Para abrir um arquivo com Vim digite em um terminal:
-
-    vim texto.txt
-
+```
+vim texto.txt
+```
 onde `texto.txt` é o nome do arquivo que deseja-se criar ou
 editar.
 

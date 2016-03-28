@@ -2,13 +2,14 @@ Entrando em modo de edição
 --------------------------
 
 Estando no modo normal, digita-se:
-
-         a .... inicia inserção de texto após o caractere atual
-         i .... inicia inserção de texto antes do caractere atual
-         A .... inicia inserção de texto no final da linha
-         I .... inicia inserção de texto no começo da linha
-         o .... inicia inserção de texto na linha abaixo
-         O .... inicia inserção de texto na linha acima
+```
+a .... inicia inserção de texto após o caractere atual
+i .... inicia inserção de texto antes do caractere atual
+A .... inicia inserção de texto no final da linha
+I .... inicia inserção de texto no começo da linha
+o .... inicia inserção de texto na linha abaixo
+O .... inicia inserção de texto na linha acima
+```
 
 Outra possibilidade é utilizar a tecla `<Insert>` para entrar no modo de
 inserção de texto antes do caractere atual, ou seja, o mesmo que a tecla
