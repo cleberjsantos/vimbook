@@ -24,10 +24,11 @@ a letra `d`. Em modo normal pressionar a tecla
 Para sair do modo visual `<Esc>`. Como um dos princípios do vim é
 agilidade pode-se usar ao invés de setas (em modo normal) as letras
 `h,l,k,j` como se fossem setas:
-
-             k
-         h       l
-             j
+```
+    k
+h       l
+    j
+```
 
 Imagine as letras acima como teclas de direção, a letra `k`
 é uma seta acima a letra `j` é uma seta abaixo e assim por

@@ -13,17 +13,19 @@ Obs: No Vim quase todos os comandos podem ser abreviados, no caso
 pode ser abreviado até o ponto em que este nome mais curto não coincida
 com o nome de algum outro comando existente. Para chamar a ajuda do Vim
 pressione `Esc` e em seguida:
-
-         :help .... versão longa, ou
-         :h ....... versão abreviada
+```
+:help .... versão longa, ou
+:h ....... versão abreviada
+```
 
 ou simplesmente `<F1>`.
 
 Siga os links usando o atalho `ctrl+]` (em modo gráfico o clique do
 mouse também funciona) e para voltar use `ctrl+o` ou `ctrl+t`.
 Para as situações de desespero pode-se digitar:
-
-         :help!
+```
+:help!
+```
 
 Quando um comando puder ser abreviado poderá aparecer desta forma:
 `:so[urce]`. Deste modo se está indicando que o comando `:source`
