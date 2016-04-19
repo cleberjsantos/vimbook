@@ -2,11 +2,11 @@ Desfazendo
 ----------
 
 Se você cometer um erro, não se preocupe! Use o comando `u`:
-
-         u ............ desfazer
-         U ............ desfaz mudanças na última linha editada
-         Ctrl-r  ...... refazer
-
+```
+u ............ desfazer
+U ............ desfaz mudanças na última linha editada
+Ctrl-r  ...... refazer
+```
 ### Undo tree
 
 Um novo recurso muito interessante que foi adicionado ao Vim a partir da
@@ -23,22 +23,22 @@ inserção)
 Passo 1
 
 :   - digite na linha 1 o seguinte texto
-
-             # controle de fluxo <Esc>
-
+```
+# controle de fluxo <Esc>
+```
 Passo 2
 
 :   - digite na linha 2 o seguinte texto
-
-             # um laço for <Esc>
-
+```
+# um laço for <Esc>
+```
 Passo 3
 
 :   - Nas linhas 3 e 4 digite...
-
-             for i in range(10):
-                 print i  <Esc>
-
+```
+for i in range(10):
+    print i  <Esc>
+```
 Passo 4
 
 :   - pressione `u` duas vezes (você voltará ao passo 1)
@@ -46,15 +46,15 @@ Passo 4
 Passo 5
 
 :   - Na linha 2 digite
-
-             # operador ternário <Esc>
-
+```
+# operador ternário <Esc>
+```
 Passo 6
 
 :   - na linha 3 digite
-
-             var = (1 if teste == 0 else 2)  <Esc>
-
+```
+var = (1 if teste == 0 else 2)  <Esc>
+```
 Obs: A necessidade do `Esc` é para demarcar as ações, pois o
 Vim considera cada inserção uma ação. Agora usando o atalho de desfazer
 tradicional “u” e de refazer `Ctrl-r` observe que não é mais
@@ -64,12 +64,15 @@ refazer não mais vai ser possível para aquele momento.
 
 Agora volte até a alteração 1 e use seguidas vezes:
 
-         g+
+```
+g+
+```
 
 e/ou
 
-         g-
-
+```
+g-
+```
 Dessa forma você acessará todas as alterações ocorridas no texto.
 
 ### Máquina do tempo
@@ -81,31 +84,29 @@ adicionado é inútil e que nos ultimos 10 minutos não há nada que se
 possa aproveitar. Utilizando a máquina do tempo é possível eliminar os
 últimos 10 minutos de texto inútil do seu documento facilmente,
 utilizando:
-
-        :earlier 10m
-
+```
+:earlier 10m
+```
 Com esse comando o documento ficará exatamente como ele estava 10
 minutos atrás! Caso após a exclusão perceba-se que foi excluído um
 minuto a mais, é possível utilizar o mesmo padrão novamente para avançar
 no tempo:
-
-        :later 60s
-
+```
+:later 60s
+```
 Note que dessa vez foi utilizado `later` ao invés de
 `earlier`, e passando segundos como argumento para viajar
 no tempo. Portanto o comando acima avança 60 segundos no tempo.
 
 Para uma melhor visão de quanto se deve voltar, pode ser usado o
 comando:
-
-        :undolist
-
+```
+:undolist
+```
 O comando acima mostra a lista com as informações sobre Desfazer e
 Refazer. E com essas informações pode-se voltar no tempo seguindo cada
 modificação:
-
-        :undo 3
-
+```
+:undo 3
+```
 Esse comando fará o documento regredir 3 modificações.
-
-
