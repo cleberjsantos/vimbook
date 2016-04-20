@@ -19,7 +19,7 @@ precisão e complexidade.
 
 Se a intenção for apenas exibir um calculo na barra de comandos é
 possível fazer algo assim:
-
-        :echo 5.2 * 3
-
+```
+:echo 5.2 * 3
+```
 
