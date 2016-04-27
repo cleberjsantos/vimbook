@@ -1,21 +1,22 @@
 Como selecionar blocos verticais de texto?
 ------------------------------------------
-
-         Ctrl-v
-
+```
+Ctrl-v
+```
 agora use as letras h,l,k,j como setas de direção até
 finalizar podendo guardar a seleção em um registro que vai de
 'a' a 'z' exemplo:
-
-         "ay
-
+```
+"ay
+```
 Em modo normal você pode fazer assim para guardar um parágrafo inteiro
 em um registro
-
-         "ayip
-
+```
+"ayip
+```
 O comando acima quer dizer
-
-         para o registro `a' ........  "a
-         copie ......................  `y`
-         o parágrafo atual ..........  `inner paragraph`
+```
+para o registro `a' ........  "a
+copie ......................  `y`
+o parágrafo atual ..........  `inner paragraph`
+```
