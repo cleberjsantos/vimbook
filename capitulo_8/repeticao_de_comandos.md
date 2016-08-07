@@ -17,36 +17,36 @@ Para inserir um texto que deve ser repetido várias vezes:
 
 Por exemplo, se você quiser inserir oitenta traços numa linha, em vez de
 digitar um por um, você pode digitar o comando:
-
-         80i-<Esc>
-
+```
+80i-<Esc>
+```
 Veja, passo a passo, o que aconteceu:
 
 Antes de entrar em modo de inserção usamos um quantificador
-
-         `80`
-
+```
+`80`
+```
 depois iniciamos o modo de inserção
-
-         i
-
+```
+i
+```
 depois digitamos o caractere a ser repetido
-
-         -
-
+```
+-
+```
 e por fim saímos do modo de inserção
-
-         <Esc>
-
+```
+<Esc>
+```
 Se desejássemos digitar 10 linhas com o texto
-
-         isto é um teste
-
+```
+isto é um teste
+```
 deveríamos então fazer assim:
-
-         <Esc> .. para ter certeza que ainda estamos no modo normal
-         10 ..... quantificador antes
-         i ...... entrar no modo de inserção
-         isto é um teste <Enter>
-         <Esc> .. voltar ao modo normal
-
+```
+<Esc> .. para ter certeza que ainda estamos no modo normal
+10 ..... quantificador antes
+i ...... entrar no modo de inserção
+isto é um teste <Enter>
+<Esc> .. voltar ao modo normal
+```
