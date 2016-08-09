@@ -6,11 +6,11 @@ no terminal, para facilitar esta tarefa pode-se seguir estes passos:
 
 1.  Definir o Vim como editor padrão do sistema editando o arquivo
     `.bashrc`[^1]:
-
-                       #configura o vim como editor padrão
-                       export EDITOR=vim
-                       export VISUAL=vim
-
+    ```bash
+    #configura o vim como editor padrão
+    export EDITOR=vim
+    export VISUAL=vim
+    ```
 
 2.  No terminal usar a combinação de teclas `Ctrl-x-e`.
     Esta combinação de teclas abre o editor padrão do sistema onde se
