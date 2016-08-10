@@ -37,3 +37,4 @@ dicionário dá-se pelo cadastramento e retirada de palavras:
 zg ..... adiciona a palavra no dicionário
 zw ..... retira a palavra no dicionário, marcando-a como 
          `desconhecida'
+```
