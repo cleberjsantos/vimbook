@@ -1,5 +1,5 @@
 Exibindo caracteres invisíveis 
 ------------------------------
-
-         :set list
-
+```
+:set list
+```
