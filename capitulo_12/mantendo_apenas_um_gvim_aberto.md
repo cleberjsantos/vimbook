@@ -19,31 +19,30 @@ suporte para o argumento *–serverlist*, o que deve ser
 garantido nas versões presentes na época em que esse documento foi
 escrito. Para fazer uma simples verificação se o comando está
 disponível, deve ser digitado em um terminal:
-
-         vim --serverlist
-         gvim --serverlist
-
+```
+vim --serverlist
+gvim --serverlist
+```
 Se ambos os comandos acima resultaram em erro, o procedimento não poderá
 ser implementado. Do contrário, deve-se utilizar o comando que teve um
 retorno válido (*vim* ou *gvim*) para criar o
 **script**. Supondo que foi o comando *gvim* que
 não retornou um erro, criamos o **script** da seguinte forma:
-
-         #!/bin/bash
-         if [ $# -ne 1 ]
-         then
-            echo "Sem arquivos para editar."
-            exit
-         fi
-         gvim --servername $(gvim --serverlist | head -1) --remote-tab $1
-
+```
+#!/bin/bash
+if [ $# -ne 1 ]
+then
+   echo "Sem arquivos para editar."
+   exit
+fi
+gvim --servername $(gvim --serverlist | head -1) --remote-tab $1
+```
 Desse modo, se for digitado *tvim* sem qualquer argumento, é
 exibida a mensagem de erro, do contrário, o arquivo é aberto na cópia
 corrente do Gvim, em uma nova aba, por exemplo:
-
-         tvim .vimrc
-
+```
+tvim .vimrc
+```
 Fonte: [Site do Eustáquio Rangel](http://eustaquiorangel.com/posts/477) 
-
 
 [^1]: Diretórios nos quais o sistema busca pelos comandos
