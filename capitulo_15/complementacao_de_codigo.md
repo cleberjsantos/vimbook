@@ -16,9 +16,9 @@ que complementa mostrando um popup durante a digitação, o mesmo pode ser obtid
 [neste link](http://www.vim.org/scripts/script.php?script_id=1879),
 em seguida coloca-se esta linha ao vimrc:
 
-
-     let g:AutoComplPop_CompleteoptPreview = 1
-
+```
+let g:AutoComplPop_CompleteoptPreview = 1
+```
 
 A linha acima faz com que o vim abra uma janela pequena com a documentação
 de cada método que está sendo digitado.
