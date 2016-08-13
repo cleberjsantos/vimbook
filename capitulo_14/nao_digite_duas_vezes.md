@@ -10,27 +10,29 @@ Não digite duas vezes
 
 -   As abreviações fazem o mesmo que auto-correção e auto-texto em
     outros editores
-
-         iab tambem também
-         iab linux GNU/Linux
-
+```VimL
+iab tambem também
+iab linux GNU/Linux
+```
 No modo de inserção você pode usar:
 
-         Ctrl-y  ........ copia caractere a caractere a linha acima
-         Ctrl-e  ........ copia caractere a caractere a linha abaixo
-         Ctrl-x Ctrl-l .. completa linhas inteiras
-
+```VimL
+Ctrl-y  ........ copia caractere a caractere a linha acima
+Ctrl-e  ........ copia caractere a caractere a linha abaixo
+Ctrl-x Ctrl-l .. completa linhas inteiras
+```
 Para um trecho muito copiado coloque o seu conteúdo em um registrador:
 
-         "ayy ... copia a linha atual para o registrador `a'
-         "ap  ... cola o registrador `a'
-
+```VimL
+"ayy ... copia a linha atual para o registrador `a'
+"ap  ... cola o registrador `a'
+```
 Crie abreviações para erros comuns no seu arquivo de configuração
 ( /.vimrc):
 
-         iabbrev teh the
-         syntax keyword WordError teh
-
+```VimL
+iabbrev teh the
+syntax keyword WordError teh
+```
 As linhas acima criam uma abreviação para erro de digitação da palavra
 ‘the’ e destaca textos que você abrir que contenham este erro.
-
