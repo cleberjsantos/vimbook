@@ -7,4 +7,3 @@ Uma vez adicionado o plugin você pode inserir seus *templates* em:
 
 
      ~/.vim/ftplugin/latex-suite/templates
-
