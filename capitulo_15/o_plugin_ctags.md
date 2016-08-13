@@ -8,9 +8,9 @@ mesmo por que não estamos no CtagsBook.
 
 Primeiro precisamos ter o arquivos de tags. Para tal, usamos o comando:
 
-
-    ctags -R <arquivos>
-
+```
+ctags -R <arquivos>
+```
 
 Normalmente o parâmetro `<arquivos>` pode ser uma expressão regular
 do tipo `*.[ch]` e afins. Depois de obter o arquivo de tags, você já pode
@@ -23,9 +23,9 @@ Quando navegando por um código fonte muito extenso com vários diretórios,
 é possível mapear o caminho dos arquivos usando o caminho absoluto deles no seu
 diretório de trabalho deste jeito:
 
-
-     find $(pwd) -regex ".*py$" | xargs ctags
-
+```
+find $(pwd) -regex ".*py$" | xargs ctags
+```
 
 Assim você pode copiar o arquivo de tags para todos os diretórios e mesmo
 assim conseguir usar os atalhos do plugin para navegar no código fonte.
@@ -36,8 +36,7 @@ O plugin de *Ctags* para o Vim está neste
 [link](http://vim.sourceforge.net/scripts/script.php?script_id=12),
 e para instalá-lo basta copiá-lo para a pasta apropriada:
 
-
-     ~/vimfiles/plugin .......... no windows
-     ~/.vim/plugin .............. no Gnu/Linux
-
-
+```
+ ~/vimfiles/plugin .......... no windows
+ ~/.vim/plugin .............. no Gnu/Linux
+```
