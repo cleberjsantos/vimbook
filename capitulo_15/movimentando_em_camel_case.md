@@ -13,4 +13,3 @@ Após instalado o plugin, os seguintes atalhos ficam disponíveis:
 * **,e** Movimenta para o caractere anterior à próxima posição *camel* dentro da string
 
 Fonte: [Blog do EustáquioRangel](http://eustaquiorangel.com/posts/522)
-
