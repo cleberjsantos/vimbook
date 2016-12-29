@@ -188,7 +188,7 @@ backup se necessário
  endfun
  nnoremap <Leader>ba :call WriteBackup()<CR>
 ```
-O atalho “*<leader>*” em geral é a barra invertida
-`\`, na dúvida “*:help <leader>*”.
+O atalho “*\<leader\>*” em geral é a barra invertida
+`\`, na dúvida “*:help \<leader\>*”.
 
 
