@@ -89,7 +89,7 @@ exclamação ao final torna o comando booleano, ou seja, se a numeração
 estiver ativa será desabilitada, caso contrário será ativada. O `<cr>`
 ao final representa um *Enter*.
 
-### Limpando o “registro” de buscas
+### Limpando o “registrador” de buscas
 
 A cada busca, se a opção ‘*hls*’[^1] estiver habilitada o Vim
 faz um destaque colorido, para desabilitar esta opção pode-se criar um
@@ -99,7 +99,7 @@ mapeamento qualquer, no caso abaixo usando a combinação de teclas
 nno <S-F11> <Esc>:let @/=""<CR>
 ```
 É um mapeamento para o modo normal que faz com que a combinação de
-teclas `Shift-F11` limpe o “registro” de buscas
+teclas `Shift-F11` limpe o “registrador” de buscas
 
 ### Destacar palavra sob o cursor
 ```VimL

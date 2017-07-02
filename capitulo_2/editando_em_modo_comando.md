@@ -14,11 +14,11 @@ Move as linhas contendo ‘palavra’ para o começo (linha zero)
 ```
 :10,20y a
 ```
-Copia da linha ‘10’ até a linha ‘20’ para o registro ‘a’
+Copia da linha ‘10’ até a linha ‘20’ para o registrador ‘a’
 ```
 :56pu a
 ```
-Cola o registro ‘a’ na linha 56
+Cola o registrador ‘a’ na linha 56
 ```
 :g/padrão/d
 ```

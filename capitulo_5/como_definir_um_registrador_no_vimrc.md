@@ -1,4 +1,4 @@
-Como definir um registro no `vimrc`?
+Como definir um registrador no `vimrc`?
 ------------------------------------
 
 Se você não sabe ainda como editar preferências no Vim leia antes o
@@ -20,7 +20,7 @@ cole isto no vimrc:
 let @d=strftime("c")<cr>
 ```
 A diferença entre digitar diretamente um comando e adicioná-lo ao
-vimrc é que uma vez no vimrc o registro em
+vimrc é que uma vez no vimrc o registrador em
 questão estará sempre disponível, observe também as sutis diferenças, um
 Enter inserido manualmente é apenas uma indicação de uma
 ação que você fará pressionando a tecla especificada, já o comando
