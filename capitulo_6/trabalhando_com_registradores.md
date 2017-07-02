@@ -1,8 +1,8 @@
 Trabalhando com registradores
 -----------------------------
 
-Pode-se guardar trechos do que foi copiado ou apagado para registros
-distintos (área de transferência múltipla). Os registros são indicados
+Pode-se guardar trechos do que foi copiado ou apagado para registradores
+distintos (área de transferência múltipla). Os registradores são indicados
 por aspas seguido por uma letra. Exemplos: `"a`,
 `"b`, `"c`, etc.
 
@@ -22,7 +22,7 @@ nome do registrador antes:
 No “modo de inserção”, como visto anteriormente, pode-se usar um atalho
 para colar rapidamente o conteúdo de um registrador.
 ```
-Ctrl-r (registro)
+Ctrl-r (registrador)
 ```
 Para colar o conteúdo do registrador ‘a’
 ```

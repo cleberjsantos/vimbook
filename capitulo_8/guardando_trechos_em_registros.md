@@ -1,4 +1,4 @@
-Guardando trechos em “registros”
+Guardando trechos em “registradores”
 --------------------------------
 
 Os registradores ‘a-z’ são uma espécie de área de

@@ -1,11 +1,11 @@
-Definindo registros previamente 
+Definindo registradores previamente 
 -------------------------------
 
 Definindo uma macro de nome `s` para ordenar e retirar linhas duplicadas
 ```
 let @s=":sort u"
 ```
-Para executar o registro `s` definido acima faça:
+Para executar o registrador `s` definido acima faça:
 ```
 @s
 ```
@@ -13,7 +13,7 @@ O Vim colocará no comando
 ```
 :sort -u
 ```
-Bastando pressionar `<Enter>`. Observação: Este registro prévio pode
+Bastando pressionar `<Enter>`. Observação: Este registrador prévio pode
 ficar no `vimrc` ou ser digitado em comando “:”
 ```
 :5,20sort u

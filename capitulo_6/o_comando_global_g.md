@@ -74,7 +74,7 @@ Apagar todas as linhas comentadas
 ```
  :g/^\s*#/d
 ```
-Copiar determinado padrão para um registro:
+Copiar determinado padrão para um registrador:
 ```
 :g/pattern/ normal "Ayy
 ```
