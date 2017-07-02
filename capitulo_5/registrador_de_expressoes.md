@@ -1,4 +1,4 @@
-registrador de expressões "=
+Registrador de expressões "=
 -------------------------
 ```
 "=
