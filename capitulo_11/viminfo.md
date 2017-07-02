@@ -11,7 +11,7 @@ ser usada para memorizar estas informações.
 
 -   Histórico de entradas *input-line history*
 
--   Conteúdo de registros não vazios
+-   Conteúdo de registradores não vazios
 
 -   Marcas de vários arquivos
 
@@ -35,7 +35,7 @@ Algumas opões da diretiva viminfo:
 
 "
 
-:   Número máximo de linhas salvas para cada registro.
+:   Número máximo de linhas salvas para cada registrador.
 
 %
 
@@ -59,8 +59,8 @@ Algumas opões da diretiva viminfo:
 
 \<
 
-:   Número máximo de linhas salvas por cada registro, se zero os
-    registros não serão salvos. Quando não incluído, todas as linhas são
+:   Número máximo de linhas salvas por cada registrador, se zero os
+    registradores não serão salvos. Quando não incluído, todas as linhas são
     salvas.
 
 Para ver mais opções sobre o arquivo ‘viminfo’ leia

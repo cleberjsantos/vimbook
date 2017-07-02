@@ -1,19 +1,19 @@
-Registros de arrastar e mover
+Registradores de arrastar e mover
 -----------------------------
 
-O registro
+O registrador
 ```
 "*
 ```
 é responsável por armazenar o último texto selecionado (p.e., através do
-mouse). Já o registro
+mouse). Já o registrador
 ```
 "+
 ```
 é o denominado "área de transferência", normalmente utilizado para se
-transferir conteúdos entre aplicações—este registro é preenchido, por
+transferir conteúdos entre aplicações—este registrador é preenchido, por
 exemplo, usando-se a típica combinação Ctrl-v encontrada em
-muitas aplicações. Finalmente, o registro
+muitas aplicações. Finalmente, o registrador
 ```
 "~
 ```

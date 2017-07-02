@@ -1,4 +1,4 @@
-Como criar um registro em modo visual?
+Como criar um registrador em modo visual?
 --------------------------------------
 
 Inicie a seleção visual com o atalho
